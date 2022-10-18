@@ -9,6 +9,7 @@ a {
 
 .non-content {
   color: white;
+  margin-right: 20px;
 }
 
 
@@ -26,4 +27,8 @@ a {
 
 .l4 {
   color: grey;
+}
+
+.cn {
+  color: white;
 }
