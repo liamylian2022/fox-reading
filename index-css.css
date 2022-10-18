@@ -1,0 +1,13 @@
+body {
+  background-color: black;
+}
+
+h1 {
+  font-family: serif;
+  color: white;
+}
+
+a {
+  color: white;
+  text-decoration: none;
+}

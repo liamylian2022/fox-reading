@@ -1,0 +1,29 @@
+body {
+  background-color: black;
+}
+
+
+a {
+  text-decoration: none;
+}
+
+.non-content {
+  color: white;
+}
+
+
+.l1 {
+  color: red;
+}
+
+.l2 {
+  color: yellow;
+}
+
+.l3 {
+  color: #327da8;
+}
+
+.l4 {
+  color: grey;
+}
