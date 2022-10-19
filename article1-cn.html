@@ -9,16 +9,14 @@
     <body>
       <div class="nav">
         <a href="./index.html" class="non-content">主页</a>
-        <a href="./article1.html" class="non-content">隐藏中文翻译</a>
+        <button type="button" name="button" onclick="handleMandarin()" id="cn-bn">显示中文翻译</button>
       </div>
-
       <main>
-        <br><br>
         <p>
           <span class="l1">前1万词</span><br>
           <span class="l4">其他词</span><br>
         </p>
-        <br><br><br><br>
+        <br><br>
 
     <a href="https://www.youdao.com/result?word=If&lang=en" class="l1">If&nbsp;</a>
   <a href="https://www.youdao.com/result?word=you&lang=en" class="l1">you&nbsp;</a>
@@ -822,7 +820,7 @@
   <a href="https://www.youdao.com/result?word=of&lang=en" class="l1">of&nbsp;</a>
   <a href="https://www.youdao.com/result?word=deserts&lang=en" class="l1">deserts&nbsp;</a>
   <a class="punctuation" href="#">.&nbsp;</a>
-  <p class="cn" id="1">如果你回到足够远的地方，一切都生活在海里。在进化历史的不同阶段，许多不同动物群体中的有进取心的个体搬到了陆地上，有时甚至搬到了最干燥的沙漠，带着他们自己的私人海水在血液和细胞液中。除了我们在我们周围看到的爬行动物、鸟类、哺乳动物和昆虫之外，其他成功脱离水的群体包括蝎子、蜗牛、甲壳类动物（如虱子和陆蟹）、千足虫和蜈蚣、蜘蛛及其近亲和各种蠕虫.我们不能忘记植物，如果没有它们对土地的事先入侵，其他迁移都不会发生。
+  <p class="cn hidden" >如果你回到足够远的地方，一切都生活在海里。在进化历史的不同阶段，许多不同动物群体中的有进取心的个体搬到了陆地上，有时甚至搬到了最干燥的沙漠，带着他们自己的私人海水在血液和细胞液中。除了我们在我们周围看到的爬行动物、鸟类、哺乳动物和昆虫之外，其他成功脱离水的群体包括蝎子、蜗牛、甲壳类动物（如虱子和陆蟹）、千足虫和蜈蚣、蜘蛛及其近亲和各种蠕虫.我们不能忘记植物，如果没有它们对土地的事先入侵，其他迁移都不会发生。
 
   从水到陆地涉及对生活各个方面的重大重新设计，包括呼吸和繁殖。然而，似乎有点反常，许多彻底的陆地动物后来转身，放弃了来之不易的陆地改造工具，再次成群结队地回到水中。海豹和海狮（例如驯服得令人窒息的加拉帕戈斯海狮）只退了一半。它们向我们展示了中间体可能是什么样的，在通往鲸鱼和儒艮等极端情况的过程中。鲸鱼（包括我们称之为海豚的小鲸鱼）和儒艮及其近亲海牛，不再是陆地生物，而是恢复了它们远古祖先的完整海洋习性。他们甚至不上岸繁殖。然而，它们仍然呼吸空气，从未发育出与它们早期海洋化身的鳃相当的东西。海龟很久以前就回到了大海，就像所有回到水中的脊椎动物一样，它们呼吸空气。然而，在一方面，它们不像鲸鱼或儒艮那样完全回到水中，因为海龟仍然在海滩上产卵。
 
@@ -839,6 +837,32 @@
 
     </body>
     <script>
-      // document.getElementById("1").innerHTML = "Hello World!";
+      var cnIsShown = false;
+      function showMandarin() {
+        var elements = document.getElementsByClassName("cn");
+        for (element of elements) {
+          element.classList.remove('hidden');
+        }
+        cnIsShown = true;
+        document.getElementById('cn-bn').innerHTML = '隐藏中文翻译';
+      };
+
+      function hideMandarin() {
+        var elements = document.getElementsByClassName("cn");
+        for (element of elements) {
+          element.classList.add('hidden');
+          document.getElementById('cn-bn').innerHTML = '显示中文翻译';
+        }
+        cnIsShown = false;
+      };
+
+      function handleMandarin() {
+        if (cnIsShown) {
+          hideMandarin();
+        } else {
+          showMandarin();
+        }
+      }
+
     </script>
   </html>
