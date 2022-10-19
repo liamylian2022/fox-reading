@@ -3,14 +3,6 @@
 
 }
 
-
-body {
-  background-color: black;
-}
-
-
-
-
 a {
   text-decoration: none;
   display: inline-block;
@@ -18,31 +10,27 @@ a {
 }
 
 .non-content {
-  color: white;
+  color: grey;
   margin-right: 20px;
 }
 
 
 .l1 {
-  color: red;
+  color: black;
 }
 
 .l2 {
-  color: yellow;
+  color: grey;
 }
 
 .l3 {
-  color: #327da8;
+  color: grey;
 }
 
 .l4 {
   color: grey;
 }
 
-.cn {
-  color: white;
-}
-
 .punctuation {
-  color: grey;
+  color: black;
 }
