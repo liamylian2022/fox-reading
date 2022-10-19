@@ -1,10 +1,10 @@
 body {
   background-image: url("./mountain2.png");
   background-size: cover;
+  font-family: "Microsoft YaHei", "PingFang SC", "STHeiti", "Heiti SC"
 }
 
 h1 {
-  font-family: serif;
   color: black;
   font-size: 10rem;
 }

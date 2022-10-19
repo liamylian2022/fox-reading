@@ -1,65 +1,56 @@
 * {
     font-size: 2rem;
     margin: 0;
-
 }
 
 body {
-
+  font-family: "Microsoft YaHei", "PingFang SC", "STHeiti", "Heiti SC";
+  width: 100vw;
 }
 
-.nav {
+.bg-color {
+  background-color: #AB6A8C
+}
+
+nav {
   margin: 0;
-  background-color: grey;
-  color: white;
+  position: fixed;
+  width: 100%;
 }
 
-.nav a {
+nav a {
   text-decoration: none;
   display: inline-block;
   margin: 1rem;
   color: white;
-
 }
 
 main {
-  margin: 1rem;
+  margin: 0, 1rem, 0, 1rem;
 }
 
-a {
+main a {
   text-decoration: none;
   display: inline-block;
   margin-bottom: 1.5rem;
 }
-
-.non-content {
-  color: grey;
-  margin-right: 20px;
-}
-
 
 .l1 {
   color: black;
 }
 
 .l2 {
-  color: grey;
-}
-
-.l3 {
-  color: grey;
-}
-
-.l4 {
-  color: grey;
+  color: #AB6A8C;
 }
 
 .punctuation {
   color: black;
 }
 
-.cn {
-
+#tip {
+  border: 3px solid #AB6A8C;
+  padding: 10px;
+  margin-top: 30px;
 }
 
 .hidden {

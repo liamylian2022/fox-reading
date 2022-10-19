@@ -5,14 +5,14 @@ function showMandarin() {
     element.classList.remove('hidden');
   }
   cnIsShown = true;
-  document.getElementById('cn-bn').innerHTML = '隐藏中文翻译';
+  document.getElementById('cn-link').innerHTML = '隐藏中文';
 };
 
 function hideMandarin() {
   var elements = document.getElementsByClassName("cn");
   for (element of elements) {
     element.classList.add('hidden');
-    document.getElementById('cn-bn').innerHTML = '显示中文翻译';
+    document.getElementById('cn-link').innerHTML = '杀对了吗？';
   }
   cnIsShown = false;
 };
