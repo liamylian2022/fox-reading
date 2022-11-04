@@ -35,6 +35,10 @@ main a {
   margin-bottom: 1.5rem;
 }
 
+article {
+  margin-bottom: 10rem;
+}
+
 .l1 {
   color: black;
 }

@@ -1,0 +1,960 @@
+
+  <!DOCTYPE html>
+  <html lang="en" dir="ltr">
+    <head>
+      <meta charset="utf-8">
+      <title></title>
+      <link rel="stylesheet" type="text/css" href="./article-css.css">
+    </head>
+    <body>
+      <div class="nav">
+        <a href="./index.html" class="non-content">主页</a>
+        <button type="button" name="button" onclick="handleMandarin()" id="cn-bn">显示中文翻译</button>
+      </div>
+      <main>
+        <p>
+          <span class="l1">前1万词</span><br>
+          <span class="l4">其他词</span><br>
+        </p>
+        <br><br>
+  <a href="https://www.youdao.com/result?word=Stepwells&lang=en" class="l2">Stepwells&nbsp;</a>
+<a href="https://www.youdao.com/result?word=A&lang=en" class="l1">A&nbsp;</a>
+<a href="https://www.youdao.com/result?word=millennium&lang=en" class="l1">millennium&nbsp;</a>
+<a href="https://www.youdao.com/result?word=ago,&lang=en" class="l1">ago,&nbsp;</a>
+<a href="https://www.youdao.com/result?word=stepwells&lang=en" class="l2">stepwells&nbsp;</a>
+<a href="https://www.youdao.com/result?word=were&lang=en" class="l1">were&nbsp;</a>
+<a href="https://www.youdao.com/result?word=fundamental&lang=en" class="l1">fundamental&nbsp;</a>
+<a href="https://www.youdao.com/result?word=to&lang=en" class="l1">to&nbsp;</a>
+<a href="https://www.youdao.com/result?word=life&lang=en" class="l1">life&nbsp;</a>
+<a href="https://www.youdao.com/result?word=in&lang=en" class="l1">in&nbsp;</a>
+<a href="https://www.youdao.com/result?word=the&lang=en" class="l1">the&nbsp;</a>
+<a href="https://www.youdao.com/result?word=driest&lang=en" class="l1">driest&nbsp;</a>
+<a href="https://www.youdao.com/result?word=parts&lang=en" class="l1">parts&nbsp;</a>
+<a href="https://www.youdao.com/result?word=of&lang=en" class="l1">of&nbsp;</a>
+<a href="https://www.youdao.com/result?word=India&lang=en" class="l2">India</a>
+<a href="#" class="punctuation">.</a><a href="https://www.youdao.com/result?word=Richard&lang=en" class="l2">Richard&nbsp;</a>
+<a href="https://www.youdao.com/result?word=Cox&lang=en" class="l2">Cox&nbsp;</a>
+<a href="https://www.youdao.com/result?word=travelled&lang=en" class="l1">travelled&nbsp;</a>
+<a href="https://www.youdao.com/result?word=to&lang=en" class="l1">to&nbsp;</a>
+<a href="https://www.youdao.com/result?word=north-western&lang=en" class="l2">north-western&nbsp;</a>
+<a href="https://www.youdao.com/result?word=India&lang=en" class="l2">India&nbsp;</a>
+<a href="https://www.youdao.com/result?word=to&lang=en" class="l1">to&nbsp;</a>
+<a href="https://www.youdao.com/result?word=document&lang=en" class="l1">document&nbsp;</a>
+<a href="https://www.youdao.com/result?word=these&lang=en" class="l1">these&nbsp;</a>
+<a href="https://www.youdao.com/result?word=spectacular&lang=en" class="l1">spectacular&nbsp;</a>
+<a href="https://www.youdao.com/result?word=monuments&lang=en" class="l1">monuments&nbsp;</a>
+<a href="https://www.youdao.com/result?word=from&lang=en" class="l1">from&nbsp;</a>
+<a href="https://www.youdao.com/result?word=a&lang=en" class="l1">a&nbsp;</a>
+<a href="https://www.youdao.com/result?word=bygone&lang=en" class="l2">bygone&nbsp;</a>
+<a href="https://www.youdao.com/result?word=era&lang=en" class="l1">era&nbsp;</a>
+<a href="https://www.youdao.com/result?word=During&lang=en" class="l1">During&nbsp;</a>
+<a href="https://www.youdao.com/result?word=the&lang=en" class="l1">the&nbsp;</a>
+<a href="https://www.youdao.com/result?word=sixth&lang=en" class="l1">sixth&nbsp;</a>
+<a href="https://www.youdao.com/result?word=and&lang=en" class="l1">and&nbsp;</a>
+<a href="https://www.youdao.com/result?word=seventh&lang=en" class="l1">seventh&nbsp;</a>
+<a href="https://www.youdao.com/result?word=centuries,&lang=en" class="l2">centuries,&nbsp;</a>
+<a href="https://www.youdao.com/result?word=the&lang=en" class="l1">the&nbsp;</a>
+<a href="https://www.youdao.com/result?word=inhabitants&lang=en" class="l1">inhabitants&nbsp;</a>
+<a href="https://www.youdao.com/result?word=of&lang=en" class="l1">of&nbsp;</a>
+<a href="https://www.youdao.com/result?word=the&lang=en" class="l1">the&nbsp;</a>
+<a href="https://www.youdao.com/result?word=modern-day&lang=en" class="l1">modern-day&nbsp;</a>
+<a href="https://www.youdao.com/result?word=states&lang=en" class="l1">states&nbsp;</a>
+<a href="https://www.youdao.com/result?word=of&lang=en" class="l1">of&nbsp;</a>
+<a href="https://www.youdao.com/result?word=Gujarat&lang=en" class="l2">Gujarat&nbsp;</a>
+<a href="https://www.youdao.com/result?word=and&lang=en" class="l1">and&nbsp;</a>
+<a href="https://www.youdao.com/result?word=Rajasthan&lang=en" class="l2">Rajasthan&nbsp;</a>
+<a href="https://www.youdao.com/result?word=in&lang=en" class="l1">in&nbsp;</a>
+<a href="https://www.youdao.com/result?word=north-western&lang=en" class="l2">north-western&nbsp;</a>
+<a href="https://www.youdao.com/result?word=India&lang=en" class="l2">India&nbsp;</a>
+<a href="https://www.youdao.com/result?word=developed&lang=en" class="l1">developed&nbsp;</a>
+<a href="https://www.youdao.com/result?word=a&lang=en" class="l1">a&nbsp;</a>
+<a href="https://www.youdao.com/result?word=method&lang=en" class="l1">method&nbsp;</a>
+<a href="https://www.youdao.com/result?word=of&lang=en" class="l1">of&nbsp;</a>
+<a href="https://www.youdao.com/result?word=gaining&lang=en" class="l1">gaining&nbsp;</a>
+<a href="https://www.youdao.com/result?word=access&lang=en" class="l1">access&nbsp;</a>
+<a href="https://www.youdao.com/result?word=to&lang=en" class="l1">to&nbsp;</a>
+<a href="https://www.youdao.com/result?word=clean,&lang=en" class="l1">clean,&nbsp;</a>
+<a href="https://www.youdao.com/result?word=fresh&lang=en" class="l1">fresh&nbsp;</a>
+<a href="https://www.youdao.com/result?word=groundwater&lang=en" class="l1">groundwater&nbsp;</a>
+<a href="https://www.youdao.com/result?word=during&lang=en" class="l1">during&nbsp;</a>
+<a href="https://www.youdao.com/result?word=the&lang=en" class="l1">the&nbsp;</a>
+<a href="https://www.youdao.com/result?word=dry&lang=en" class="l1">dry&nbsp;</a>
+<a href="https://www.youdao.com/result?word=season&lang=en" class="l1">season&nbsp;</a>
+<a href="https://www.youdao.com/result?word=for&lang=en" class="l1">for&nbsp;</a>
+<a href="https://www.youdao.com/result?word=drinking,&lang=en" class="l1">drinking,&nbsp;</a>
+<a href="https://www.youdao.com/result?word=bathing,&lang=en" class="l2">bathing,&nbsp;</a>
+<a href="https://www.youdao.com/result?word=watering&lang=en" class="l1">watering&nbsp;</a>
+<a href="https://www.youdao.com/result?word=animals&lang=en" class="l1">animals&nbsp;</a>
+<a href="https://www.youdao.com/result?word=and&lang=en" class="l1">and&nbsp;</a>
+<a href="https://www.youdao.com/result?word=irrigation&lang=en" class="l1">irrigation</a>
+<a href="#" class="punctuation">.</a><a href="https://www.youdao.com/result?word=However,&lang=en" class="l1">However,&nbsp;</a>
+<a href="https://www.youdao.com/result?word=the&lang=en" class="l1">the&nbsp;</a>
+<a href="https://www.youdao.com/result?word=significance&lang=en" class="l1">significance&nbsp;</a>
+<a href="https://www.youdao.com/result?word=of&lang=en" class="l1">of&nbsp;</a>
+<a href="https://www.youdao.com/result?word=this&lang=en" class="l1">this&nbsp;</a>
+<a href="https://www.youdao.com/result?word=invention&lang=en" class="l1">invention&nbsp;</a>
+<a href="https://www.youdao.com/result?word=-&lang=en" class="l2">-&nbsp;</a>
+<a href="https://www.youdao.com/result?word=the&lang=en" class="l1">the&nbsp;</a>
+<a href="https://www.youdao.com/result?word=stepwell&lang=en" class="l2">stepwell&nbsp;</a>
+<a href="https://www.youdao.com/result?word=-&lang=en" class="l2">-&nbsp;</a>
+<a href="https://www.youdao.com/result?word=goes&lang=en" class="l1">goes&nbsp;</a>
+<a href="https://www.youdao.com/result?word=beyond&lang=en" class="l1">beyond&nbsp;</a>
+<a href="https://www.youdao.com/result?word=its&lang=en" class="l1">its&nbsp;</a>
+<a href="https://www.youdao.com/result?word=utilitarian&lang=en" class="l2">utilitarian&nbsp;</a>
+<a href="https://www.youdao.com/result?word=application&lang=en" class="l1">application</a>
+<a href="#" class="punctuation">.</a><a href="https://www.youdao.com/result?word=Unique&lang=en" class="l1">Unique&nbsp;</a>
+<a href="https://www.youdao.com/result?word=to&lang=en" class="l1">to&nbsp;</a>
+<a href="https://www.youdao.com/result?word=this&lang=en" class="l1">this&nbsp;</a>
+<a href="https://www.youdao.com/result?word=region,&lang=en" class="l1">region,&nbsp;</a>
+<a href="https://www.youdao.com/result?word=stepwells&lang=en" class="l2">stepwells&nbsp;</a>
+<a href="https://www.youdao.com/result?word=are&lang=en" class="l1">are&nbsp;</a>
+<a href="https://www.youdao.com/result?word=often&lang=en" class="l1">often&nbsp;</a>
+<a href="https://www.youdao.com/result?word=architecturally&lang=en" class="l1">architecturally&nbsp;</a>
+<a href="https://www.youdao.com/result?word=complex&lang=en" class="l1">complex&nbsp;</a>
+<a href="https://www.youdao.com/result?word=and&lang=en" class="l1">and&nbsp;</a>
+<a href="https://www.youdao.com/result?word=vary&lang=en" class="l1">vary&nbsp;</a>
+<a href="https://www.youdao.com/result?word=widely&lang=en" class="l1">widely&nbsp;</a>
+<a href="https://www.youdao.com/result?word=in&lang=en" class="l1">in&nbsp;</a>
+<a href="https://www.youdao.com/result?word=size&lang=en" class="l1">size&nbsp;</a>
+<a href="https://www.youdao.com/result?word=and&lang=en" class="l1">and&nbsp;</a>
+<a href="https://www.youdao.com/result?word=shape&lang=en" class="l1">shape</a>
+<a href="#" class="punctuation">.</a><a href="https://www.youdao.com/result?word=During&lang=en" class="l1">During&nbsp;</a>
+<a href="https://www.youdao.com/result?word=their&lang=en" class="l1">their&nbsp;</a>
+<a href="https://www.youdao.com/result?word=heyday,&lang=en" class="l2">heyday,&nbsp;</a>
+<a href="https://www.youdao.com/result?word=they&lang=en" class="l1">they&nbsp;</a>
+<a href="https://www.youdao.com/result?word=were&lang=en" class="l1">were&nbsp;</a>
+<a href="https://www.youdao.com/result?word=places&lang=en" class="l1">places&nbsp;</a>
+<a href="https://www.youdao.com/result?word=of&lang=en" class="l1">of&nbsp;</a>
+<a href="https://www.youdao.com/result?word=gathering,&lang=en" class="l1">gathering,&nbsp;</a>
+<a href="https://www.youdao.com/result?word=of&lang=en" class="l1">of&nbsp;</a>
+<a href="https://www.youdao.com/result?word=leisure&lang=en" class="l1">leisure&nbsp;</a>
+<a href="https://www.youdao.com/result?word=and&lang=en" class="l1">and&nbsp;</a>
+<a href="https://www.youdao.com/result?word=relaxation&lang=en" class="l1">relaxation&nbsp;</a>
+<a href="https://www.youdao.com/result?word=and&lang=en" class="l1">and&nbsp;</a>
+<a href="https://www.youdao.com/result?word=of&lang=en" class="l1">of&nbsp;</a>
+<a href="https://www.youdao.com/result?word=worship&lang=en" class="l1">worship&nbsp;</a>
+<a href="https://www.youdao.com/result?word=for&lang=en" class="l1">for&nbsp;</a>
+<a href="https://www.youdao.com/result?word=villagers&lang=en" class="l1">villagers&nbsp;</a>
+<a href="https://www.youdao.com/result?word=of&lang=en" class="l1">of&nbsp;</a>
+<a href="https://www.youdao.com/result?word=all&lang=en" class="l1">all&nbsp;</a>
+<a href="https://www.youdao.com/result?word=but&lang=en" class="l1">but&nbsp;</a>
+<a href="https://www.youdao.com/result?word=the&lang=en" class="l1">the&nbsp;</a>
+<a href="https://www.youdao.com/result?word=lowest&lang=en" class="l2">lowest&nbsp;</a>
+<a href="https://www.youdao.com/result?word=classes&lang=en" class="l1">classes</a>
+<a href="#" class="punctuation">.</a><a href="https://www.youdao.com/result?word=Most&lang=en" class="l1">Most&nbsp;</a>
+<a href="https://www.youdao.com/result?word=stepwells&lang=en" class="l2">stepwells&nbsp;</a>
+<a href="https://www.youdao.com/result?word=are&lang=en" class="l1">are&nbsp;</a>
+<a href="https://www.youdao.com/result?word=found&lang=en" class="l1">found&nbsp;</a>
+<a href="https://www.youdao.com/result?word=dotted&lang=en" class="l1">dotted&nbsp;</a>
+<a href="https://www.youdao.com/result?word=round&lang=en" class="l1">round&nbsp;</a>
+<a href="https://www.youdao.com/result?word=the&lang=en" class="l1">the&nbsp;</a>
+<a href="https://www.youdao.com/result?word=desert&lang=en" class="l1">desert&nbsp;</a>
+<a href="https://www.youdao.com/result?word=areas&lang=en" class="l1">areas&nbsp;</a>
+<a href="https://www.youdao.com/result?word=of&lang=en" class="l1">of&nbsp;</a>
+<a href="https://www.youdao.com/result?word=Gujarat&lang=en" class="l2">Gujarat&nbsp;</a>
+<a href="https://www.youdao.com/result?word=(where&lang=en" class="l1">(where&nbsp;</a>
+<a href="https://www.youdao.com/result?word=they&lang=en" class="l1">they&nbsp;</a>
+<a href="https://www.youdao.com/result?word=are&lang=en" class="l1">are&nbsp;</a>
+<a href="https://www.youdao.com/result?word=called&lang=en" class="l1">called&nbsp;</a>
+<a href="https://www.youdao.com/result?word=vav)&lang=en" class="l2">vav)&nbsp;</a>
+<a href="https://www.youdao.com/result?word=and&lang=en" class="l1">and&nbsp;</a>
+<a href="https://www.youdao.com/result?word=Rajasthan&lang=en" class="l2">Rajasthan&nbsp;</a>
+<a href="https://www.youdao.com/result?word=(where&lang=en" class="l1">(where&nbsp;</a>
+<a href="https://www.youdao.com/result?word=they&lang=en" class="l1">they&nbsp;</a>
+<a href="https://www.youdao.com/result?word=are&lang=en" class="l1">are&nbsp;</a>
+<a href="https://www.youdao.com/result?word=called&lang=en" class="l1">called&nbsp;</a>
+<a href="https://www.youdao.com/result?word=baori),&lang=en" class="l2">baori),&nbsp;</a>
+<a href="https://www.youdao.com/result?word=while&lang=en" class="l1">while&nbsp;</a>
+<a href="https://www.youdao.com/result?word=a&lang=en" class="l1">a&nbsp;</a>
+<a href="https://www.youdao.com/result?word=few&lang=en" class="l1">few&nbsp;</a>
+<a href="https://www.youdao.com/result?word=also&lang=en" class="l1">also&nbsp;</a>
+<a href="https://www.youdao.com/result?word=survive&lang=en" class="l1">survive&nbsp;</a>
+<a href="https://www.youdao.com/result?word=in&lang=en" class="l1">in&nbsp;</a>
+<a href="https://www.youdao.com/result?word=Delhi&lang=en" class="l2">Delhi</a>
+<a href="#" class="punctuation">.</a><a href="https://www.youdao.com/result?word=Some&lang=en" class="l1">Some&nbsp;</a>
+<a href="https://www.youdao.com/result?word=were&lang=en" class="l1">were&nbsp;</a>
+<a href="https://www.youdao.com/result?word=located&lang=en" class="l1">located&nbsp;</a>
+<a href="https://www.youdao.com/result?word=in&lang=en" class="l1">in&nbsp;</a>
+<a href="https://www.youdao.com/result?word=or&lang=en" class="l1">or&nbsp;</a>
+<a href="https://www.youdao.com/result?word=near&lang=en" class="l1">near&nbsp;</a>
+<a href="https://www.youdao.com/result?word=villages&lang=en" class="l1">villages&nbsp;</a>
+<a href="https://www.youdao.com/result?word=as&lang=en" class="l1">as&nbsp;</a>
+<a href="https://www.youdao.com/result?word=public&lang=en" class="l1">public&nbsp;</a>
+<a href="https://www.youdao.com/result?word=spaces&lang=en" class="l1">spaces&nbsp;</a>
+<a href="https://www.youdao.com/result?word=for&lang=en" class="l1">for&nbsp;</a>
+<a href="https://www.youdao.com/result?word=the&lang=en" class="l1">the&nbsp;</a>
+<a href="https://www.youdao.com/result?word=community;&lang=en" class="l1">community;&nbsp;</a>
+<a href="https://www.youdao.com/result?word=others&lang=en" class="l1">others&nbsp;</a>
+<a href="https://www.youdao.com/result?word=were&lang=en" class="l1">were&nbsp;</a>
+<a href="https://www.youdao.com/result?word=positioned&lang=en" class="l1">positioned&nbsp;</a>
+<a href="https://www.youdao.com/result?word=beside&lang=en" class="l1">beside&nbsp;</a>
+<a href="https://www.youdao.com/result?word=roads&lang=en" class="l1">roads&nbsp;</a>
+<a href="https://www.youdao.com/result?word=as&lang=en" class="l1">as&nbsp;</a>
+<a href="https://www.youdao.com/result?word=resting&lang=en" class="l1">resting&nbsp;</a>
+<a href="https://www.youdao.com/result?word=places&lang=en" class="l1">places&nbsp;</a>
+<a href="https://www.youdao.com/result?word=for&lang=en" class="l1">for&nbsp;</a>
+<a href="https://www.youdao.com/result?word=travellers&lang=en" class="l1">travellers</a>
+<a href="#" class="punctuation">.</a><a href="https://www.youdao.com/result?word=As&lang=en" class="l1">As&nbsp;</a>
+<a href="https://www.youdao.com/result?word=their&lang=en" class="l1">their&nbsp;</a>
+<a href="https://www.youdao.com/result?word=name&lang=en" class="l1">name&nbsp;</a>
+<a href="https://www.youdao.com/result?word=suggests,&lang=en" class="l1">suggests,&nbsp;</a>
+<a href="https://www.youdao.com/result?word=stepwells&lang=en" class="l2">stepwells&nbsp;</a>
+<a href="https://www.youdao.com/result?word=comprise&lang=en" class="l1">comprise&nbsp;</a>
+<a href="https://www.youdao.com/result?word=a&lang=en" class="l1">a&nbsp;</a>
+<a href="https://www.youdao.com/result?word=series&lang=en" class="l1">series&nbsp;</a>
+<a href="https://www.youdao.com/result?word=of&lang=en" class="l1">of&nbsp;</a>
+<a href="https://www.youdao.com/result?word=stone&lang=en" class="l1">stone&nbsp;</a>
+<a href="https://www.youdao.com/result?word=steps&lang=en" class="l1">steps&nbsp;</a>
+<a href="https://www.youdao.com/result?word=descending&lang=en" class="l1">descending&nbsp;</a>
+<a href="https://www.youdao.com/result?word=from&lang=en" class="l1">from&nbsp;</a>
+<a href="https://www.youdao.com/result?word=ground&lang=en" class="l1">ground&nbsp;</a>
+<a href="https://www.youdao.com/result?word=level&lang=en" class="l1">level&nbsp;</a>
+<a href="https://www.youdao.com/result?word=to&lang=en" class="l1">to&nbsp;</a>
+<a href="https://www.youdao.com/result?word=the&lang=en" class="l1">the&nbsp;</a>
+<a href="https://www.youdao.com/result?word=water&lang=en" class="l1">water&nbsp;</a>
+<a href="https://www.youdao.com/result?word=source&lang=en" class="l1">source&nbsp;</a>
+<a href="https://www.youdao.com/result?word=(normally&lang=en" class="l1">(normally&nbsp;</a>
+<a href="https://www.youdao.com/result?word=an&lang=en" class="l1">an&nbsp;</a>
+<a href="https://www.youdao.com/result?word=underground&lang=en" class="l1">underground&nbsp;</a>
+<a href="https://www.youdao.com/result?word=aquifer)&lang=en" class="l2">aquifer)&nbsp;</a>
+<a href="https://www.youdao.com/result?word=as&lang=en" class="l1">as&nbsp;</a>
+<a href="https://www.youdao.com/result?word=it&lang=en" class="l1">it&nbsp;</a>
+<a href="https://www.youdao.com/result?word=recedes&lang=en" class="l1">recedes&nbsp;</a>
+<a href="https://www.youdao.com/result?word=following&lang=en" class="l1">following&nbsp;</a>
+<a href="https://www.youdao.com/result?word=the&lang=en" class="l1">the&nbsp;</a>
+<a href="https://www.youdao.com/result?word=rains&lang=en" class="l1">rains</a>
+<a href="#" class="punctuation">.</a><a href="https://www.youdao.com/result?word=When&lang=en" class="l1">When&nbsp;</a>
+<a href="https://www.youdao.com/result?word=the&lang=en" class="l1">the&nbsp;</a>
+<a href="https://www.youdao.com/result?word=water&lang=en" class="l1">water&nbsp;</a>
+<a href="https://www.youdao.com/result?word=level&lang=en" class="l1">level&nbsp;</a>
+<a href="https://www.youdao.com/result?word=was&lang=en" class="l1">was&nbsp;</a>
+<a href="https://www.youdao.com/result?word=high,&lang=en" class="l1">high,&nbsp;</a>
+<a href="https://www.youdao.com/result?word=the&lang=en" class="l1">the&nbsp;</a>
+<a href="https://www.youdao.com/result?word=user&lang=en" class="l1">user&nbsp;</a>
+<a href="https://www.youdao.com/result?word=needed&lang=en" class="l1">needed&nbsp;</a>
+<a href="https://www.youdao.com/result?word=only&lang=en" class="l1">only&nbsp;</a>
+<a href="https://www.youdao.com/result?word=to&lang=en" class="l1">to&nbsp;</a>
+<a href="https://www.youdao.com/result?word=descend&lang=en" class="l1">descend&nbsp;</a>
+<a href="https://www.youdao.com/result?word=a&lang=en" class="l1">a&nbsp;</a>
+<a href="https://www.youdao.com/result?word=few&lang=en" class="l1">few&nbsp;</a>
+<a href="https://www.youdao.com/result?word=steps&lang=en" class="l1">steps&nbsp;</a>
+<a href="https://www.youdao.com/result?word=to&lang=en" class="l1">to&nbsp;</a>
+<a href="https://www.youdao.com/result?word=reach&lang=en" class="l1">reach&nbsp;</a>
+<a href="https://www.youdao.com/result?word=it;&lang=en" class="l1">it;&nbsp;</a>
+<a href="https://www.youdao.com/result?word=when&lang=en" class="l1">when&nbsp;</a>
+<a href="https://www.youdao.com/result?word=it&lang=en" class="l1">it&nbsp;</a>
+<a href="https://www.youdao.com/result?word=was&lang=en" class="l1">was&nbsp;</a>
+<a href="https://www.youdao.com/result?word=low,&lang=en" class="l1">low,&nbsp;</a>
+<a href="https://www.youdao.com/result?word=several&lang=en" class="l1">several&nbsp;</a>
+<a href="https://www.youdao.com/result?word=levels&lang=en" class="l1">levels&nbsp;</a>
+<a href="https://www.youdao.com/result?word=would&lang=en" class="l1">would&nbsp;</a>
+<a href="https://www.youdao.com/result?word=have&lang=en" class="l1">have&nbsp;</a>
+<a href="https://www.youdao.com/result?word=to&lang=en" class="l1">to&nbsp;</a>
+<a href="https://www.youdao.com/result?word=be&lang=en" class="l1">be&nbsp;</a>
+<a href="https://www.youdao.com/result?word=negotiated&lang=en" class="l1">negotiated</a>
+<a href="#" class="punctuation">.</a><a href="https://www.youdao.com/result?word=Some&lang=en" class="l1">Some&nbsp;</a>
+<a href="https://www.youdao.com/result?word=wells&lang=en" class="l1">wells&nbsp;</a>
+<a href="https://www.youdao.com/result?word=are&lang=en" class="l1">are&nbsp;</a>
+<a href="https://www.youdao.com/result?word=vast,&lang=en" class="l1">vast,&nbsp;</a>
+<a href="https://www.youdao.com/result?word=open&lang=en" class="l1">open&nbsp;</a>
+<a href="https://www.youdao.com/result?word=craters&lang=en" class="l1">craters&nbsp;</a>
+<a href="https://www.youdao.com/result?word=with&lang=en" class="l1">with&nbsp;</a>
+<a href="https://www.youdao.com/result?word=hundreds&lang=en" class="l1">hundreds&nbsp;</a>
+<a href="https://www.youdao.com/result?word=of&lang=en" class="l1">of&nbsp;</a>
+<a href="https://www.youdao.com/result?word=steps&lang=en" class="l1">steps&nbsp;</a>
+<a href="https://www.youdao.com/result?word=paving&lang=en" class="l1">paving&nbsp;</a>
+<a href="https://www.youdao.com/result?word=each&lang=en" class="l1">each&nbsp;</a>
+<a href="https://www.youdao.com/result?word=sloping&lang=en" class="l1">sloping&nbsp;</a>
+<a href="https://www.youdao.com/result?word=side,&lang=en" class="l1">side,&nbsp;</a>
+<a href="https://www.youdao.com/result?word=often&lang=en" class="l1">often&nbsp;</a>
+<a href="https://www.youdao.com/result?word=in&lang=en" class="l1">in&nbsp;</a>
+<a href="https://www.youdao.com/result?word=tiers&lang=en" class="l1">tiers</a>
+<a href="#" class="punctuation">.</a><a href="https://www.youdao.com/result?word=Others&lang=en" class="l1">Others&nbsp;</a>
+<a href="https://www.youdao.com/result?word=are&lang=en" class="l1">are&nbsp;</a>
+<a href="https://www.youdao.com/result?word=more&lang=en" class="l1">more&nbsp;</a>
+<a href="https://www.youdao.com/result?word=elaborate,&lang=en" class="l1">elaborate,&nbsp;</a>
+<a href="https://www.youdao.com/result?word=with&lang=en" class="l1">with&nbsp;</a>
+<a href="https://www.youdao.com/result?word=long&lang=en" class="l1">long&nbsp;</a>
+<a href="https://www.youdao.com/result?word=stepped&lang=en" class="l1">stepped&nbsp;</a>
+<a href="https://www.youdao.com/result?word=passages&lang=en" class="l1">passages&nbsp;</a>
+<a href="https://www.youdao.com/result?word=leading&lang=en" class="l1">leading&nbsp;</a>
+<a href="https://www.youdao.com/result?word=to&lang=en" class="l1">to&nbsp;</a>
+<a href="https://www.youdao.com/result?word=the&lang=en" class="l1">the&nbsp;</a>
+<a href="https://www.youdao.com/result?word=water&lang=en" class="l1">water&nbsp;</a>
+<a href="https://www.youdao.com/result?word=via&lang=en" class="l1">via&nbsp;</a>
+<a href="https://www.youdao.com/result?word=several&lang=en" class="l1">several&nbsp;</a>
+<a href="https://www.youdao.com/result?word=storeys&lang=en" class="l1">storeys</a>
+<a href="#" class="punctuation">.</a><a href="https://www.youdao.com/result?word=Built&lang=en" class="l1">Built&nbsp;</a>
+<a href="https://www.youdao.com/result?word=from&lang=en" class="l1">from&nbsp;</a>
+<a href="https://www.youdao.com/result?word=stone&lang=en" class="l1">stone&nbsp;</a>
+<a href="https://www.youdao.com/result?word=and&lang=en" class="l1">and&nbsp;</a>
+<a href="https://www.youdao.com/result?word=supported&lang=en" class="l1">supported&nbsp;</a>
+<a href="https://www.youdao.com/result?word=by&lang=en" class="l1">by&nbsp;</a>
+<a href="https://www.youdao.com/result?word=pillars,&lang=en" class="l1">pillars,&nbsp;</a>
+<a href="https://www.youdao.com/result?word=they&lang=en" class="l1">they&nbsp;</a>
+<a href="https://www.youdao.com/result?word=also&lang=en" class="l1">also&nbsp;</a>
+<a href="https://www.youdao.com/result?word=included&lang=en" class="l1">included&nbsp;</a>
+<a href="https://www.youdao.com/result?word=pavilions&lang=en" class="l2">pavilions&nbsp;</a>
+<a href="https://www.youdao.com/result?word=that&lang=en" class="l1">that&nbsp;</a>
+<a href="https://www.youdao.com/result?word=sheltered&lang=en" class="l1">sheltered&nbsp;</a>
+<a href="https://www.youdao.com/result?word=visitors&lang=en" class="l1">visitors&nbsp;</a>
+<a href="https://www.youdao.com/result?word=from&lang=en" class="l1">from&nbsp;</a>
+<a href="https://www.youdao.com/result?word=the&lang=en" class="l1">the&nbsp;</a>
+<a href="https://www.youdao.com/result?word=relentless&lang=en" class="l1">relentless&nbsp;</a>
+<a href="https://www.youdao.com/result?word=heat&lang=en" class="l1">heat</a>
+<a href="#" class="punctuation">.</a><a href="https://www.youdao.com/result?word=But&lang=en" class="l1">But&nbsp;</a>
+<a href="https://www.youdao.com/result?word=perhaps&lang=en" class="l1">perhaps&nbsp;</a>
+<a href="https://www.youdao.com/result?word=the&lang=en" class="l1">the&nbsp;</a>
+<a href="https://www.youdao.com/result?word=most&lang=en" class="l1">most&nbsp;</a>
+<a href="https://www.youdao.com/result?word=impressive&lang=en" class="l1">impressive&nbsp;</a>
+<a href="https://www.youdao.com/result?word=features&lang=en" class="l1">features&nbsp;</a>
+<a href="https://www.youdao.com/result?word=are&lang=en" class="l1">are&nbsp;</a>
+<a href="https://www.youdao.com/result?word=the&lang=en" class="l1">the&nbsp;</a>
+<a href="https://www.youdao.com/result?word=intricate&lang=en" class="l1">intricate&nbsp;</a>
+<a href="https://www.youdao.com/result?word=decorative&lang=en" class="l1">decorative&nbsp;</a>
+<a href="https://www.youdao.com/result?word=sculptures&lang=en" class="l1">sculptures&nbsp;</a>
+<a href="https://www.youdao.com/result?word=that&lang=en" class="l1">that&nbsp;</a>
+<a href="https://www.youdao.com/result?word=embellish&lang=en" class="l2">embellish&nbsp;</a>
+<a href="https://www.youdao.com/result?word=many&lang=en" class="l1">many&nbsp;</a>
+<a href="https://www.youdao.com/result?word=step&lang=en" class="l1">step&nbsp;</a>
+<a href="https://www.youdao.com/result?word=wells,&lang=en" class="l1">wells,&nbsp;</a>
+<a href="https://www.youdao.com/result?word=showing&lang=en" class="l1">showing&nbsp;</a>
+<a href="https://www.youdao.com/result?word=activities&lang=en" class="l1">activities&nbsp;</a>
+<a href="https://www.youdao.com/result?word=from&lang=en" class="l1">from&nbsp;</a>
+<a href="https://www.youdao.com/result?word=fighting&lang=en" class="l1">fighting&nbsp;</a>
+<a href="https://www.youdao.com/result?word=and&lang=en" class="l1">and&nbsp;</a>
+<a href="https://www.youdao.com/result?word=dancing&lang=en" class="l1">dancing&nbsp;</a>
+<a href="https://www.youdao.com/result?word=to&lang=en" class="l1">to&nbsp;</a>
+<a href="https://www.youdao.com/result?word=everyday&lang=en" class="l1">everyday&nbsp;</a>
+<a href="https://www.youdao.com/result?word=acts&lang=en" class="l1">acts&nbsp;</a>
+<a href="https://www.youdao.com/result?word=such&lang=en" class="l1">such&nbsp;</a>
+<a href="https://www.youdao.com/result?word=as&lang=en" class="l1">as&nbsp;</a>
+<a href="https://www.youdao.com/result?word=women&lang=en" class="l1">women&nbsp;</a>
+<a href="https://www.youdao.com/result?word=combing&lang=en" class="l1">combing&nbsp;</a>
+<a href="https://www.youdao.com/result?word=their&lang=en" class="l1">their&nbsp;</a>
+<a href="https://www.youdao.com/result?word=hair&lang=en" class="l1">hair&nbsp;</a>
+<a href="https://www.youdao.com/result?word=or&lang=en" class="l1">or&nbsp;</a>
+<a href="https://www.youdao.com/result?word=churning&lang=en" class="l1">churning&nbsp;</a>
+<a href="https://www.youdao.com/result?word=butter&lang=en" class="l1">butter</a>
+<a href="#" class="punctuation">.</a><a href="https://www.youdao.com/result?word=Down&lang=en" class="l1">Down&nbsp;</a>
+<a href="https://www.youdao.com/result?word=the&lang=en" class="l1">the&nbsp;</a>
+<a href="https://www.youdao.com/result?word=centuries,&lang=en" class="l2">centuries,&nbsp;</a>
+<a href="https://www.youdao.com/result?word=thousands&lang=en" class="l1">thousands&nbsp;</a>
+<a href="https://www.youdao.com/result?word=of&lang=en" class="l1">of&nbsp;</a>
+<a href="https://www.youdao.com/result?word=wells&lang=en" class="l1">wells&nbsp;</a>
+<a href="https://www.youdao.com/result?word=were&lang=en" class="l1">were&nbsp;</a>
+<a href="https://www.youdao.com/result?word=constructed&lang=en" class="l1">constructed&nbsp;</a>
+<a href="https://www.youdao.com/result?word=throughout&lang=en" class="l1">throughout&nbsp;</a>
+<a href="https://www.youdao.com/result?word=northwestern&lang=en" class="l1">northwestern&nbsp;</a>
+<a href="https://www.youdao.com/result?word=India,&lang=en" class="l2">India,&nbsp;</a>
+<a href="https://www.youdao.com/result?word=but&lang=en" class="l1">but&nbsp;</a>
+<a href="https://www.youdao.com/result?word=the&lang=en" class="l1">the&nbsp;</a>
+<a href="https://www.youdao.com/result?word=majority&lang=en" class="l1">majority&nbsp;</a>
+<a href="https://www.youdao.com/result?word=have&lang=en" class="l1">have&nbsp;</a>
+<a href="https://www.youdao.com/result?word=now&lang=en" class="l1">now&nbsp;</a>
+<a href="https://www.youdao.com/result?word=fallen&lang=en" class="l1">fallen&nbsp;</a>
+<a href="https://www.youdao.com/result?word=into&lang=en" class="l1">into&nbsp;</a>
+<a href="https://www.youdao.com/result?word=disuse;&lang=en" class="l2">disuse;&nbsp;</a>
+<a href="https://www.youdao.com/result?word=many&lang=en" class="l1">many&nbsp;</a>
+<a href="https://www.youdao.com/result?word=are&lang=en" class="l1">are&nbsp;</a>
+<a href="https://www.youdao.com/result?word=derelict&lang=en" class="l2">derelict&nbsp;</a>
+<a href="https://www.youdao.com/result?word=and&lang=en" class="l1">and&nbsp;</a>
+<a href="https://www.youdao.com/result?word=dry,&lang=en" class="l1">dry,&nbsp;</a>
+<a href="https://www.youdao.com/result?word=as&lang=en" class="l1">as&nbsp;</a>
+<a href="https://www.youdao.com/result?word=groundwater&lang=en" class="l1">groundwater&nbsp;</a>
+<a href="https://www.youdao.com/result?word=has&lang=en" class="l1">has&nbsp;</a>
+<a href="https://www.youdao.com/result?word=been&lang=en" class="l1">been&nbsp;</a>
+<a href="https://www.youdao.com/result?word=diverted&lang=en" class="l1">diverted&nbsp;</a>
+<a href="https://www.youdao.com/result?word=for&lang=en" class="l1">for&nbsp;</a>
+<a href="https://www.youdao.com/result?word=industrial&lang=en" class="l1">industrial&nbsp;</a>
+<a href="https://www.youdao.com/result?word=use&lang=en" class="l1">use&nbsp;</a>
+<a href="https://www.youdao.com/result?word=and&lang=en" class="l1">and&nbsp;</a>
+<a href="https://www.youdao.com/result?word=the&lang=en" class="l1">the&nbsp;</a>
+<a href="https://www.youdao.com/result?word=wells&lang=en" class="l1">wells&nbsp;</a>
+<a href="https://www.youdao.com/result?word=no&lang=en" class="l1">no&nbsp;</a>
+<a href="https://www.youdao.com/result?word=longer&lang=en" class="l1">longer&nbsp;</a>
+<a href="https://www.youdao.com/result?word=reach&lang=en" class="l1">reach&nbsp;</a>
+<a href="https://www.youdao.com/result?word=the&lang=en" class="l1">the&nbsp;</a>
+<a href="https://www.youdao.com/result?word=water&lang=en" class="l1">water&nbsp;</a>
+<a href="https://www.youdao.com/result?word=table&lang=en" class="l1">table</a>
+<a href="#" class="punctuation">.</a><a href="https://www.youdao.com/result?word=Their&lang=en" class="l1">Their&nbsp;</a>
+<a href="https://www.youdao.com/result?word=condition&lang=en" class="l1">condition&nbsp;</a>
+<a href="https://www.youdao.com/result?word=hasn’t&lang=en" class="l2">hasn’t&nbsp;</a>
+<a href="https://www.youdao.com/result?word=been&lang=en" class="l1">been&nbsp;</a>
+<a href="https://www.youdao.com/result?word=helped&lang=en" class="l1">helped&nbsp;</a>
+<a href="https://www.youdao.com/result?word=by&lang=en" class="l1">by&nbsp;</a>
+<a href="https://www.youdao.com/result?word=recent&lang=en" class="l1">recent&nbsp;</a>
+<a href="https://www.youdao.com/result?word=dry&lang=en" class="l1">dry&nbsp;</a>
+<a href="https://www.youdao.com/result?word=spells:&lang=en" class="l1">spells:&nbsp;</a>
+<a href="https://www.youdao.com/result?word=southern&lang=en" class="l1">southern&nbsp;</a>
+<a href="https://www.youdao.com/result?word=Rajasthan&lang=en" class="l2">Rajasthan&nbsp;</a>
+<a href="https://www.youdao.com/result?word=suffered&lang=en" class="l1">suffered&nbsp;</a>
+<a href="https://www.youdao.com/result?word=an&lang=en" class="l1">an&nbsp;</a>
+<a href="https://www.youdao.com/result?word=eight-year&lang=en" class="l2">eight-year&nbsp;</a>
+<a href="https://www.youdao.com/result?word=drought&lang=en" class="l1">drought&nbsp;</a>
+<a href="https://www.youdao.com/result?word=between&lang=en" class="l1">between&nbsp;</a>
+<a href="https://www.youdao.com/result?word=1996&lang=en" class="l2">1996&nbsp;</a>
+<a href="https://www.youdao.com/result?word=and&lang=en" class="l1">and&nbsp;</a>
+<a href="https://www.youdao.com/result?word=2004&lang=en" class="l2">2004</a>
+<a href="#" class="punctuation">.</a><a href="https://www.youdao.com/result?word=However,&lang=en" class="l1">However,&nbsp;</a>
+<a href="https://www.youdao.com/result?word=some&lang=en" class="l1">some&nbsp;</a>
+<a href="https://www.youdao.com/result?word=important&lang=en" class="l1">important&nbsp;</a>
+<a href="https://www.youdao.com/result?word=sites&lang=en" class="l1">sites&nbsp;</a>
+<a href="https://www.youdao.com/result?word=in&lang=en" class="l1">in&nbsp;</a>
+<a href="https://www.youdao.com/result?word=Gujarat&lang=en" class="l2">Gujarat&nbsp;</a>
+<a href="https://www.youdao.com/result?word=have&lang=en" class="l1">have&nbsp;</a>
+<a href="https://www.youdao.com/result?word=recently&lang=en" class="l1">recently&nbsp;</a>
+<a href="https://www.youdao.com/result?word=undergone&lang=en" class="l1">undergone&nbsp;</a>
+<a href="https://www.youdao.com/result?word=major&lang=en" class="l1">major&nbsp;</a>
+<a href="https://www.youdao.com/result?word=restoration,&lang=en" class="l1">restoration,&nbsp;</a>
+<a href="https://www.youdao.com/result?word=and&lang=en" class="l1">and&nbsp;</a>
+<a href="https://www.youdao.com/result?word=the&lang=en" class="l1">the&nbsp;</a>
+<a href="https://www.youdao.com/result?word=state&lang=en" class="l1">state&nbsp;</a>
+<a href="https://www.youdao.com/result?word=government&lang=en" class="l1">government&nbsp;</a>
+<a href="https://www.youdao.com/result?word=announced&lang=en" class="l1">announced&nbsp;</a>
+<a href="https://www.youdao.com/result?word=in&lang=en" class="l1">in&nbsp;</a>
+<a href="https://www.youdao.com/result?word=June&lang=en" class="l2">June&nbsp;</a>
+<a href="https://www.youdao.com/result?word=last&lang=en" class="l1">last&nbsp;</a>
+<a href="https://www.youdao.com/result?word=year&lang=en" class="l1">year&nbsp;</a>
+<a href="https://www.youdao.com/result?word=that&lang=en" class="l1">that&nbsp;</a>
+<a href="https://www.youdao.com/result?word=it&lang=en" class="l1">it&nbsp;</a>
+<a href="https://www.youdao.com/result?word=plans&lang=en" class="l1">plans&nbsp;</a>
+<a href="https://www.youdao.com/result?word=to&lang=en" class="l1">to&nbsp;</a>
+<a href="https://www.youdao.com/result?word=restore&lang=en" class="l1">restore&nbsp;</a>
+<a href="https://www.youdao.com/result?word=the&lang=en" class="l1">the&nbsp;</a>
+<a href="https://www.youdao.com/result?word=stepwells&lang=en" class="l2">stepwells&nbsp;</a>
+<a href="https://www.youdao.com/result?word=throughout&lang=en" class="l1">throughout&nbsp;</a>
+<a href="https://www.youdao.com/result?word=the&lang=en" class="l1">the&nbsp;</a>
+<a href="https://www.youdao.com/result?word=state&lang=en" class="l1">state</a>
+<a href="#" class="punctuation">.</a><a href="https://www.youdao.com/result?word=In&lang=en" class="l1">In&nbsp;</a>
+<a href="https://www.youdao.com/result?word=Patan,&lang=en" class="l2">Patan,&nbsp;</a>
+<a href="https://www.youdao.com/result?word=the&lang=en" class="l1">the&nbsp;</a>
+<a href="https://www.youdao.com/result?word=state's&lang=en" class="l1">state's&nbsp;</a>
+<a href="https://www.youdao.com/result?word=ancient&lang=en" class="l1">ancient&nbsp;</a>
+<a href="https://www.youdao.com/result?word=capital,&lang=en" class="l1">capital,&nbsp;</a>
+<a href="https://www.youdao.com/result?word=the&lang=en" class="l1">the&nbsp;</a>
+<a href="https://www.youdao.com/result?word=stepwell&lang=en" class="l2">stepwell&nbsp;</a>
+<a href="https://www.youdao.com/result?word=of&lang=en" class="l1">of&nbsp;</a>
+<a href="https://www.youdao.com/result?word=Rani&lang=en" class="l2">Rani&nbsp;</a>
+<a href="https://www.youdao.com/result?word=Ki&lang=en" class="l2">Ki&nbsp;</a>
+<a href="https://www.youdao.com/result?word=Vav&lang=en" class="l2">Vav&nbsp;</a>
+<a href="https://www.youdao.com/result?word=(Queen’s&lang=en" class="l1">(Queen’s&nbsp;</a>
+<a href="https://www.youdao.com/result?word=Stepwell)&lang=en" class="l2">Stepwell)&nbsp;</a>
+<a href="https://www.youdao.com/result?word=is&lang=en" class="l1">is&nbsp;</a>
+<a href="https://www.youdao.com/result?word=perhaps&lang=en" class="l1">perhaps&nbsp;</a>
+<a href="https://www.youdao.com/result?word=the&lang=en" class="l1">the&nbsp;</a>
+<a href="https://www.youdao.com/result?word=finest&lang=en" class="l1">finest&nbsp;</a>
+<a href="https://www.youdao.com/result?word=current&lang=en" class="l1">current&nbsp;</a>
+<a href="https://www.youdao.com/result?word=example&lang=en" class="l1">example</a>
+<a href="#" class="punctuation">.</a><a href="https://www.youdao.com/result?word=It&lang=en" class="l1">It&nbsp;</a>
+<a href="https://www.youdao.com/result?word=was&lang=en" class="l1">was&nbsp;</a>
+<a href="https://www.youdao.com/result?word=built&lang=en" class="l1">built&nbsp;</a>
+<a href="https://www.youdao.com/result?word=by&lang=en" class="l1">by&nbsp;</a>
+<a href="https://www.youdao.com/result?word=Queen&lang=en" class="l1">Queen&nbsp;</a>
+<a href="https://www.youdao.com/result?word=Udayamati&lang=en" class="l2">Udayamati&nbsp;</a>
+<a href="https://www.youdao.com/result?word=during&lang=en" class="l1">during&nbsp;</a>
+<a href="https://www.youdao.com/result?word=the&lang=en" class="l1">the&nbsp;</a>
+<a href="https://www.youdao.com/result?word=late&lang=en" class="l1">late&nbsp;</a>
+<a href="https://www.youdao.com/result?word=11th&lang=en" class="l2">11th&nbsp;</a>
+<a href="https://www.youdao.com/result?word=century,&lang=en" class="l1">century,&nbsp;</a>
+<a href="https://www.youdao.com/result?word=but&lang=en" class="l1">but&nbsp;</a>
+<a href="https://www.youdao.com/result?word=became&lang=en" class="l1">became&nbsp;</a>
+<a href="https://www.youdao.com/result?word=silted&lang=en" class="l2">silted&nbsp;</a>
+<a href="https://www.youdao.com/result?word=up&lang=en" class="l1">up&nbsp;</a>
+<a href="https://www.youdao.com/result?word=following&lang=en" class="l1">following&nbsp;</a>
+<a href="https://www.youdao.com/result?word=a&lang=en" class="l1">a&nbsp;</a>
+<a href="https://www.youdao.com/result?word=flood&lang=en" class="l1">flood&nbsp;</a>
+<a href="https://www.youdao.com/result?word=during&lang=en" class="l1">during&nbsp;</a>
+<a href="https://www.youdao.com/result?word=the&lang=en" class="l1">the&nbsp;</a>
+<a href="https://www.youdao.com/result?word=13th&lang=en" class="l2">13th&nbsp;</a>
+<a href="https://www.youdao.com/result?word=century&lang=en" class="l1">century</a>
+<a href="#" class="punctuation">.</a><a href="https://www.youdao.com/result?word=But&lang=en" class="l1">But&nbsp;</a>
+<a href="https://www.youdao.com/result?word=the&lang=en" class="l1">the&nbsp;</a>
+<a href="https://www.youdao.com/result?word=Archaeological&lang=en" class="l1">Archaeological&nbsp;</a>
+<a href="https://www.youdao.com/result?word=Survey&lang=en" class="l1">Survey&nbsp;</a>
+<a href="https://www.youdao.com/result?word=of&lang=en" class="l1">of&nbsp;</a>
+<a href="https://www.youdao.com/result?word=India&lang=en" class="l2">India&nbsp;</a>
+<a href="https://www.youdao.com/result?word=began&lang=en" class="l1">began&nbsp;</a>
+<a href="https://www.youdao.com/result?word=restoring&lang=en" class="l2">restoring&nbsp;</a>
+<a href="https://www.youdao.com/result?word=it&lang=en" class="l1">it&nbsp;</a>
+<a href="https://www.youdao.com/result?word=in&lang=en" class="l1">in&nbsp;</a>
+<a href="https://www.youdao.com/result?word=the&lang=en" class="l1">the&nbsp;</a>
+<a href="https://www.youdao.com/result?word=1960s,&lang=en" class="l2">1960s,&nbsp;</a>
+<a href="https://www.youdao.com/result?word=and&lang=en" class="l1">and&nbsp;</a>
+<a href="https://www.youdao.com/result?word=today&lang=en" class="l1">today&nbsp;</a>
+<a href="https://www.youdao.com/result?word=it&lang=en" class="l1">it&nbsp;</a>
+<a href="https://www.youdao.com/result?word=is&lang=en" class="l1">is&nbsp;</a>
+<a href="https://www.youdao.com/result?word=in&lang=en" class="l1">in&nbsp;</a>
+<a href="https://www.youdao.com/result?word=pristine&lang=en" class="l1">pristine&nbsp;</a>
+<a href="https://www.youdao.com/result?word=condition&lang=en" class="l1">condition</a>
+<a href="#" class="punctuation">.</a><a href="https://www.youdao.com/result?word=At&lang=en" class="l1">At&nbsp;</a>
+<a href="https://www.youdao.com/result?word=65&lang=en" class="l2">65&nbsp;</a>
+<a href="https://www.youdao.com/result?word=metres&lang=en" class="l2">metres&nbsp;</a>
+<a href="https://www.youdao.com/result?word=long,&lang=en" class="l1">long,&nbsp;</a>
+<a href="https://www.youdao.com/result?word=20&lang=en" class="l2">20&nbsp;</a>
+<a href="https://www.youdao.com/result?word=metres&lang=en" class="l2">metres&nbsp;</a>
+<a href="https://www.youdao.com/result?word=wide&lang=en" class="l1">wide&nbsp;</a>
+<a href="https://www.youdao.com/result?word=and&lang=en" class="l1">and&nbsp;</a>
+<a href="https://www.youdao.com/result?word=27&lang=en" class="l2">27&nbsp;</a>
+<a href="https://www.youdao.com/result?word=metres&lang=en" class="l2">metres&nbsp;</a>
+<a href="https://www.youdao.com/result?word=deep,&lang=en" class="l1">deep,&nbsp;</a>
+<a href="https://www.youdao.com/result?word=Rani&lang=en" class="l2">Rani&nbsp;</a>
+<a href="https://www.youdao.com/result?word=Ki&lang=en" class="l2">Ki&nbsp;</a>
+<a href="https://www.youdao.com/result?word=Vav&lang=en" class="l2">Vav&nbsp;</a>
+<a href="https://www.youdao.com/result?word=features&lang=en" class="l1">features&nbsp;</a>
+<a href="https://www.youdao.com/result?word=500&lang=en" class="l2">500&nbsp;</a>
+<a href="https://www.youdao.com/result?word=sculptures&lang=en" class="l1">sculptures&nbsp;</a>
+<a href="https://www.youdao.com/result?word=carved&lang=en" class="l1">carved&nbsp;</a>
+<a href="https://www.youdao.com/result?word=into&lang=en" class="l1">into&nbsp;</a>
+<a href="https://www.youdao.com/result?word=niches&lang=en" class="l1">niches&nbsp;</a>
+<a href="https://www.youdao.com/result?word=throughout&lang=en" class="l1">throughout&nbsp;</a>
+<a href="https://www.youdao.com/result?word=the&lang=en" class="l1">the&nbsp;</a>
+<a href="https://www.youdao.com/result?word=monument&lang=en" class="l1">monument</a>
+<a href="#" class="punctuation">.</a><a href="https://www.youdao.com/result?word=Incredibly,&lang=en" class="l1">Incredibly,&nbsp;</a>
+<a href="https://www.youdao.com/result?word=in&lang=en" class="l1">in&nbsp;</a>
+<a href="https://www.youdao.com/result?word=January&lang=en" class="l2">January&nbsp;</a>
+<a href="https://www.youdao.com/result?word=2001,&lang=en" class="l2">2001,&nbsp;</a>
+<a href="https://www.youdao.com/result?word=this&lang=en" class="l1">this&nbsp;</a>
+<a href="https://www.youdao.com/result?word=ancient&lang=en" class="l1">ancient&nbsp;</a>
+<a href="https://www.youdao.com/result?word=structure&lang=en" class="l1">structure&nbsp;</a>
+<a href="https://www.youdao.com/result?word=survived&lang=en" class="l1">survived&nbsp;</a>
+<a href="https://www.youdao.com/result?word=an&lang=en" class="l1">an&nbsp;</a>
+<a href="https://www.youdao.com/result?word=earthquake&lang=en" class="l1">earthquake&nbsp;</a>
+<a href="https://www.youdao.com/result?word=that&lang=en" class="l1">that&nbsp;</a>
+<a href="https://www.youdao.com/result?word=measured&lang=en" class="l1">measured&nbsp;</a>
+<a href="https://www.youdao.com/result?word=7&lang=en" class="l2">7</a>
+<a href="#" class="punctuation">.</a><a href="https://www.youdao.com/result?word=6&lang=en" class="l2">6&nbsp;</a>
+<a href="https://www.youdao.com/result?word=on&lang=en" class="l1">on&nbsp;</a>
+<a href="https://www.youdao.com/result?word=the&lang=en" class="l1">the&nbsp;</a>
+<a href="https://www.youdao.com/result?word=Richter&lang=en" class="l2">Richter&nbsp;</a>
+<a href="https://www.youdao.com/result?word=scale&lang=en" class="l1">scale</a>
+<a href="#" class="punctuation">.</a><a href="https://www.youdao.com/result?word=Another&lang=en" class="l1">Another&nbsp;</a>
+<a href="https://www.youdao.com/result?word=example&lang=en" class="l1">example&nbsp;</a>
+<a href="https://www.youdao.com/result?word=is&lang=en" class="l1">is&nbsp;</a>
+<a href="https://www.youdao.com/result?word=the&lang=en" class="l1">the&nbsp;</a>
+<a href="https://www.youdao.com/result?word=Surya&lang=en" class="l2">Surya&nbsp;</a>
+<a href="https://www.youdao.com/result?word=Kund&lang=en" class="l2">Kund&nbsp;</a>
+<a href="https://www.youdao.com/result?word=in&lang=en" class="l1">in&nbsp;</a>
+<a href="https://www.youdao.com/result?word=Modhera,&lang=en" class="l2">Modhera,&nbsp;</a>
+<a href="https://www.youdao.com/result?word=northern&lang=en" class="l1">northern&nbsp;</a>
+<a href="https://www.youdao.com/result?word=Gujarat,&lang=en" class="l2">Gujarat,&nbsp;</a>
+<a href="https://www.youdao.com/result?word=next&lang=en" class="l1">next&nbsp;</a>
+<a href="https://www.youdao.com/result?word=to&lang=en" class="l1">to&nbsp;</a>
+<a href="https://www.youdao.com/result?word=the&lang=en" class="l1">the&nbsp;</a>
+<a href="https://www.youdao.com/result?word=Sun&lang=en" class="l1">Sun&nbsp;</a>
+<a href="https://www.youdao.com/result?word=Temple,&lang=en" class="l1">Temple,&nbsp;</a>
+<a href="https://www.youdao.com/result?word=built&lang=en" class="l1">built&nbsp;</a>
+<a href="https://www.youdao.com/result?word=by&lang=en" class="l1">by&nbsp;</a>
+<a href="https://www.youdao.com/result?word=King&lang=en" class="l1">King&nbsp;</a>
+<a href="https://www.youdao.com/result?word=Bhima&lang=en" class="l2">Bhima&nbsp;</a>
+<a href="https://www.youdao.com/result?word=I&lang=en" class="l1">I&nbsp;</a>
+<a href="https://www.youdao.com/result?word=in&lang=en" class="l1">in&nbsp;</a>
+<a href="https://www.youdao.com/result?word=1026&lang=en" class="l2">1026&nbsp;</a>
+<a href="https://www.youdao.com/result?word=to&lang=en" class="l1">to&nbsp;</a>
+<a href="https://www.youdao.com/result?word=honour&lang=en" class="l2">honour&nbsp;</a>
+<a href="https://www.youdao.com/result?word=the&lang=en" class="l1">the&nbsp;</a>
+<a href="https://www.youdao.com/result?word=sun&lang=en" class="l1">sun&nbsp;</a>
+<a href="https://www.youdao.com/result?word=god&lang=en" class="l1">god&nbsp;</a>
+<a href="https://www.youdao.com/result?word=Surya&lang=en" class="l2">Surya</a>
+<a href="#" class="punctuation">.</a><a href="https://www.youdao.com/result?word=It&lang=en" class="l1">It&nbsp;</a>
+<a href="https://www.youdao.com/result?word=actually&lang=en" class="l1">actually&nbsp;</a>
+<a href="https://www.youdao.com/result?word=resembles&lang=en" class="l1">resembles&nbsp;</a>
+<a href="https://www.youdao.com/result?word=a&lang=en" class="l1">a&nbsp;</a>
+<a href="https://www.youdao.com/result?word=tank&lang=en" class="l1">tank&nbsp;</a>
+<a href="https://www.youdao.com/result?word=(kund&lang=en" class="l2">(kund&nbsp;</a>
+<a href="https://www.youdao.com/result?word=means&lang=en" class="l1">means&nbsp;</a>
+<a href="https://www.youdao.com/result?word=reservoir&lang=en" class="l1">reservoir&nbsp;</a>
+<a href="https://www.youdao.com/result?word=or&lang=en" class="l1">or&nbsp;</a>
+<a href="https://www.youdao.com/result?word=pond)&lang=en" class="l1">pond)&nbsp;</a>
+<a href="https://www.youdao.com/result?word=rather&lang=en" class="l1">rather&nbsp;</a>
+<a href="https://www.youdao.com/result?word=than&lang=en" class="l1">than&nbsp;</a>
+<a href="https://www.youdao.com/result?word=a&lang=en" class="l1">a&nbsp;</a>
+<a href="https://www.youdao.com/result?word=well,&lang=en" class="l1">well,&nbsp;</a>
+<a href="https://www.youdao.com/result?word=but&lang=en" class="l1">but&nbsp;</a>
+<a href="https://www.youdao.com/result?word=displays&lang=en" class="l1">displays&nbsp;</a>
+<a href="https://www.youdao.com/result?word=the&lang=en" class="l1">the&nbsp;</a>
+<a href="https://www.youdao.com/result?word=hallmarks&lang=en" class="l1">hallmarks&nbsp;</a>
+<a href="https://www.youdao.com/result?word=of&lang=en" class="l1">of&nbsp;</a>
+<a href="https://www.youdao.com/result?word=stepwell&lang=en" class="l2">stepwell&nbsp;</a>
+<a href="https://www.youdao.com/result?word=architecture,&lang=en" class="l1">architecture,&nbsp;</a>
+<a href="https://www.youdao.com/result?word=including&lang=en" class="l1">including&nbsp;</a>
+<a href="https://www.youdao.com/result?word=four&lang=en" class="l1">four&nbsp;</a>
+<a href="https://www.youdao.com/result?word=sides&lang=en" class="l1">sides&nbsp;</a>
+<a href="https://www.youdao.com/result?word=of&lang=en" class="l1">of&nbsp;</a>
+<a href="https://www.youdao.com/result?word=steps&lang=en" class="l1">steps&nbsp;</a>
+<a href="https://www.youdao.com/result?word=that&lang=en" class="l1">that&nbsp;</a>
+<a href="https://www.youdao.com/result?word=descend&lang=en" class="l1">descend&nbsp;</a>
+<a href="https://www.youdao.com/result?word=to&lang=en" class="l1">to&nbsp;</a>
+<a href="https://www.youdao.com/result?word=the&lang=en" class="l1">the&nbsp;</a>
+<a href="https://www.youdao.com/result?word=bottom&lang=en" class="l1">bottom&nbsp;</a>
+<a href="https://www.youdao.com/result?word=in&lang=en" class="l1">in&nbsp;</a>
+<a href="https://www.youdao.com/result?word=a&lang=en" class="l1">a&nbsp;</a>
+<a href="https://www.youdao.com/result?word=stunning&lang=en" class="l1">stunning&nbsp;</a>
+<a href="https://www.youdao.com/result?word=geometrical&lang=en" class="l1">geometrical&nbsp;</a>
+<a href="https://www.youdao.com/result?word=formation&lang=en" class="l1">formation</a>
+<a href="#" class="punctuation">.</a><a href="https://www.youdao.com/result?word=The&lang=en" class="l1">The&nbsp;</a>
+<a href="https://www.youdao.com/result?word=terraces&lang=en" class="l1">terraces&nbsp;</a>
+<a href="https://www.youdao.com/result?word=house&lang=en" class="l1">house&nbsp;</a>
+<a href="https://www.youdao.com/result?word=108&lang=en" class="l2">108&nbsp;</a>
+<a href="https://www.youdao.com/result?word=small,&lang=en" class="l1">small,&nbsp;</a>
+<a href="https://www.youdao.com/result?word=intricately&lang=en" class="l1">intricately&nbsp;</a>
+<a href="https://www.youdao.com/result?word=carved&lang=en" class="l1">carved&nbsp;</a>
+<a href="https://www.youdao.com/result?word=shrines&lang=en" class="l1">shrines&nbsp;</a>
+<a href="https://www.youdao.com/result?word=between&lang=en" class="l1">between&nbsp;</a>
+<a href="https://www.youdao.com/result?word=the&lang=en" class="l1">the&nbsp;</a>
+<a href="https://www.youdao.com/result?word=sets&lang=en" class="l1">sets&nbsp;</a>
+<a href="https://www.youdao.com/result?word=of&lang=en" class="l1">of&nbsp;</a>
+<a href="https://www.youdao.com/result?word=steps&lang=en" class="l1">steps</a>
+<a href="#" class="punctuation">.</a><a href="https://www.youdao.com/result?word=Rajasthan&lang=en" class="l2">Rajasthan&nbsp;</a>
+<a href="https://www.youdao.com/result?word=also&lang=en" class="l1">also&nbsp;</a>
+<a href="https://www.youdao.com/result?word=has&lang=en" class="l1">has&nbsp;</a>
+<a href="https://www.youdao.com/result?word=a&lang=en" class="l1">a&nbsp;</a>
+<a href="https://www.youdao.com/result?word=wealth&lang=en" class="l1">wealth&nbsp;</a>
+<a href="https://www.youdao.com/result?word=of&lang=en" class="l1">of&nbsp;</a>
+<a href="https://www.youdao.com/result?word=wells&lang=en" class="l1">wells</a>
+<a href="#" class="punctuation">.</a><a href="https://www.youdao.com/result?word=The&lang=en" class="l1">The&nbsp;</a>
+<a href="https://www.youdao.com/result?word=ancient&lang=en" class="l1">ancient&nbsp;</a>
+<a href="https://www.youdao.com/result?word=city&lang=en" class="l1">city&nbsp;</a>
+<a href="https://www.youdao.com/result?word=of&lang=en" class="l1">of&nbsp;</a>
+<a href="https://www.youdao.com/result?word=Bundi,&lang=en" class="l2">Bundi,&nbsp;</a>
+<a href="https://www.youdao.com/result?word=200&lang=en" class="l2">200&nbsp;</a>
+<a href="https://www.youdao.com/result?word=kilometres&lang=en" class="l2">kilometres&nbsp;</a>
+<a href="https://www.youdao.com/result?word=south&lang=en" class="l1">south&nbsp;</a>
+<a href="https://www.youdao.com/result?word=of&lang=en" class="l1">of&nbsp;</a>
+<a href="https://www.youdao.com/result?word=Jaipur,&lang=en" class="l2">Jaipur,&nbsp;</a>
+<a href="https://www.youdao.com/result?word=is&lang=en" class="l1">is&nbsp;</a>
+<a href="https://www.youdao.com/result?word=renowned&lang=en" class="l1">renowned&nbsp;</a>
+<a href="https://www.youdao.com/result?word=for&lang=en" class="l1">for&nbsp;</a>
+<a href="https://www.youdao.com/result?word=its&lang=en" class="l1">its&nbsp;</a>
+<a href="https://www.youdao.com/result?word=architecture,&lang=en" class="l1">architecture,&nbsp;</a>
+<a href="https://www.youdao.com/result?word=including&lang=en" class="l1">including&nbsp;</a>
+<a href="https://www.youdao.com/result?word=its&lang=en" class="l1">its&nbsp;</a>
+<a href="https://www.youdao.com/result?word=stepwells&lang=en" class="l2">stepwells</a>
+<a href="#" class="punctuation">.</a><a href="https://www.youdao.com/result?word=One&lang=en" class="l1">One&nbsp;</a>
+<a href="https://www.youdao.com/result?word=of&lang=en" class="l1">of&nbsp;</a>
+<a href="https://www.youdao.com/result?word=the&lang=en" class="l1">the&nbsp;</a>
+<a href="https://www.youdao.com/result?word=larger&lang=en" class="l1">larger&nbsp;</a>
+<a href="https://www.youdao.com/result?word=examples&lang=en" class="l1">examples&nbsp;</a>
+<a href="https://www.youdao.com/result?word=is&lang=en" class="l1">is&nbsp;</a>
+<a href="https://www.youdao.com/result?word=Raniji&lang=en" class="l2">Raniji&nbsp;</a>
+<a href="https://www.youdao.com/result?word=Ki&lang=en" class="l2">Ki&nbsp;</a>
+<a href="https://www.youdao.com/result?word=Baori,&lang=en" class="l2">Baori,&nbsp;</a>
+<a href="https://www.youdao.com/result?word=which&lang=en" class="l1">which&nbsp;</a>
+<a href="https://www.youdao.com/result?word=was&lang=en" class="l1">was&nbsp;</a>
+<a href="https://www.youdao.com/result?word=built&lang=en" class="l1">built&nbsp;</a>
+<a href="https://www.youdao.com/result?word=by&lang=en" class="l1">by&nbsp;</a>
+<a href="https://www.youdao.com/result?word=the&lang=en" class="l1">the&nbsp;</a>
+<a href="https://www.youdao.com/result?word=queen&lang=en" class="l1">queen&nbsp;</a>
+<a href="https://www.youdao.com/result?word=of&lang=en" class="l1">of&nbsp;</a>
+<a href="https://www.youdao.com/result?word=the&lang=en" class="l1">the&nbsp;</a>
+<a href="https://www.youdao.com/result?word=region,&lang=en" class="l1">region,&nbsp;</a>
+<a href="https://www.youdao.com/result?word=Nathavatji,&lang=en" class="l2">Nathavatji,&nbsp;</a>
+<a href="https://www.youdao.com/result?word=in&lang=en" class="l1">in&nbsp;</a>
+<a href="https://www.youdao.com/result?word=1699&lang=en" class="l2">1699</a>
+<a href="#" class="punctuation">.</a><a href="https://www.youdao.com/result?word=At&lang=en" class="l1">At&nbsp;</a>
+<a href="https://www.youdao.com/result?word=46&lang=en" class="l2">46&nbsp;</a>
+<a href="https://www.youdao.com/result?word=meters&lang=en" class="l1">meters&nbsp;</a>
+<a href="https://www.youdao.com/result?word=deep,&lang=en" class="l1">deep,&nbsp;</a>
+<a href="https://www.youdao.com/result?word=20&lang=en" class="l2">20&nbsp;</a>
+<a href="https://www.youdao.com/result?word=metres&lang=en" class="l2">metres&nbsp;</a>
+<a href="https://www.youdao.com/result?word=wide&lang=en" class="l1">wide&nbsp;</a>
+<a href="https://www.youdao.com/result?word=and&lang=en" class="l1">and&nbsp;</a>
+<a href="https://www.youdao.com/result?word=40&lang=en" class="l2">40&nbsp;</a>
+<a href="https://www.youdao.com/result?word=metres&lang=en" class="l2">metres&nbsp;</a>
+<a href="https://www.youdao.com/result?word=long,&lang=en" class="l1">long,&nbsp;</a>
+<a href="https://www.youdao.com/result?word=the&lang=en" class="l1">the&nbsp;</a>
+<a href="https://www.youdao.com/result?word=intricately&lang=en" class="l1">intricately&nbsp;</a>
+<a href="https://www.youdao.com/result?word=carved&lang=en" class="l1">carved&nbsp;</a>
+<a href="https://www.youdao.com/result?word=monument&lang=en" class="l1">monument&nbsp;</a>
+<a href="https://www.youdao.com/result?word=is&lang=en" class="l1">is&nbsp;</a>
+<a href="https://www.youdao.com/result?word=one&lang=en" class="l1">one&nbsp;</a>
+<a href="https://www.youdao.com/result?word=of&lang=en" class="l1">of&nbsp;</a>
+<a href="https://www.youdao.com/result?word=21&lang=en" class="l2">21&nbsp;</a>
+<a href="https://www.youdao.com/result?word=baoris&lang=en" class="l2">baoris&nbsp;</a>
+<a href="https://www.youdao.com/result?word=commissioned&lang=en" class="l1">commissioned&nbsp;</a>
+<a href="https://www.youdao.com/result?word=in&lang=en" class="l1">in&nbsp;</a>
+<a href="https://www.youdao.com/result?word=the&lang=en" class="l1">the&nbsp;</a>
+<a href="https://www.youdao.com/result?word=Bundi&lang=en" class="l1">Bundi&nbsp;</a>
+<a href="https://www.youdao.com/result?word=area&lang=en" class="l1">area&nbsp;</a>
+<a href="https://www.youdao.com/result?word=by&lang=en" class="l1">by&nbsp;</a>
+<a href="https://www.youdao.com/result?word=Nathavatji&lang=en" class="l2">Nathavatji</a>
+<a href="#" class="punctuation">.</a><a href="https://www.youdao.com/result?word=In&lang=en" class="l1">In&nbsp;</a>
+<a href="https://www.youdao.com/result?word=the&lang=en" class="l1">the&nbsp;</a>
+<a href="https://www.youdao.com/result?word=old&lang=en" class="l1">old&nbsp;</a>
+<a href="https://www.youdao.com/result?word=ruined&lang=en" class="l1">ruined&nbsp;</a>
+<a href="https://www.youdao.com/result?word=town&lang=en" class="l1">town&nbsp;</a>
+<a href="https://www.youdao.com/result?word=of&lang=en" class="l1">of&nbsp;</a>
+<a href="https://www.youdao.com/result?word=Abhaneri,&lang=en" class="l2">Abhaneri,&nbsp;</a>
+<a href="https://www.youdao.com/result?word=about&lang=en" class="l1">about&nbsp;</a>
+<a href="https://www.youdao.com/result?word=95&lang=en" class="l2">95&nbsp;</a>
+<a href="https://www.youdao.com/result?word=kilometers&lang=en" class="l2">kilometers&nbsp;</a>
+<a href="https://www.youdao.com/result?word=east&lang=en" class="l1">east&nbsp;</a>
+<a href="https://www.youdao.com/result?word=of&lang=en" class="l1">of&nbsp;</a>
+<a href="https://www.youdao.com/result?word=Jaipur,&lang=en" class="l2">Jaipur,&nbsp;</a>
+<a href="https://www.youdao.com/result?word=is&lang=en" class="l1">is&nbsp;</a>
+<a href="https://www.youdao.com/result?word=Chand&lang=en" class="l2">Chand&nbsp;</a>
+<a href="https://www.youdao.com/result?word=Baori,&lang=en" class="l2">Baori,&nbsp;</a>
+<a href="https://www.youdao.com/result?word=one&lang=en" class="l1">one&nbsp;</a>
+<a href="https://www.youdao.com/result?word=of&lang=en" class="l1">of&nbsp;</a>
+<a href="https://www.youdao.com/result?word=India's&lang=en" class="l2">India's&nbsp;</a>
+<a href="https://www.youdao.com/result?word=oldest&lang=en" class="l2">oldest&nbsp;</a>
+<a href="https://www.youdao.com/result?word=and&lang=en" class="l1">and&nbsp;</a>
+<a href="https://www.youdao.com/result?word=deepest&lang=en" class="l1">deepest&nbsp;</a>
+<a href="https://www.youdao.com/result?word=wells;&lang=en" class="l1">wells;&nbsp;</a>
+<a href="https://www.youdao.com/result?word=aesthetically&lang=en" class="l2">aesthetically&nbsp;</a>
+<a href="https://www.youdao.com/result?word=it’s&lang=en" class="l1">it’s&nbsp;</a>
+<a href="https://www.youdao.com/result?word=perhaps&lang=en" class="l1">perhaps&nbsp;</a>
+<a href="https://www.youdao.com/result?word=one&lang=en" class="l1">one&nbsp;</a>
+<a href="https://www.youdao.com/result?word=of&lang=en" class="l1">of&nbsp;</a>
+<a href="https://www.youdao.com/result?word=the&lang=en" class="l1">the&nbsp;</a>
+<a href="https://www.youdao.com/result?word=most&lang=en" class="l1">most&nbsp;</a>
+<a href="https://www.youdao.com/result?word=dramatic&lang=en" class="l1">dramatic</a>
+<a href="#" class="punctuation">.</a><a href="https://www.youdao.com/result?word=Built&lang=en" class="l1">Built&nbsp;</a>
+<a href="https://www.youdao.com/result?word=in&lang=en" class="l1">in&nbsp;</a>
+<a href="https://www.youdao.com/result?word=around&lang=en" class="l1">around&nbsp;</a>
+<a href="https://www.youdao.com/result?word=850&lang=en" class="l2">850&nbsp;</a>
+<a href="https://www.youdao.com/result?word=AD&lang=en" class="l1">AD&nbsp;</a>
+<a href="https://www.youdao.com/result?word=next&lang=en" class="l1">next&nbsp;</a>
+<a href="https://www.youdao.com/result?word=to&lang=en" class="l1">to&nbsp;</a>
+<a href="https://www.youdao.com/result?word=the&lang=en" class="l1">the&nbsp;</a>
+<a href="https://www.youdao.com/result?word=temple&lang=en" class="l1">temple&nbsp;</a>
+<a href="https://www.youdao.com/result?word=of&lang=en" class="l1">of&nbsp;</a>
+<a href="https://www.youdao.com/result?word=Harshat&lang=en" class="l1">Harshat&nbsp;</a>
+<a href="https://www.youdao.com/result?word=Mata,&lang=en" class="l1">Mata,&nbsp;</a>
+<a href="https://www.youdao.com/result?word=the&lang=en" class="l1">the&nbsp;</a>
+<a href="https://www.youdao.com/result?word=baori&lang=en" class="l2">baori&nbsp;</a>
+<a href="https://www.youdao.com/result?word=comprises&lang=en" class="l1">comprises&nbsp;</a>
+<a href="https://www.youdao.com/result?word=hundreds&lang=en" class="l1">hundreds&nbsp;</a>
+<a href="https://www.youdao.com/result?word=of&lang=en" class="l1">of&nbsp;</a>
+<a href="https://www.youdao.com/result?word=zigzagging&lang=en" class="l2">zigzagging&nbsp;</a>
+<a href="https://www.youdao.com/result?word=steps&lang=en" class="l1">steps&nbsp;</a>
+<a href="https://www.youdao.com/result?word=that&lang=en" class="l1">that&nbsp;</a>
+<a href="https://www.youdao.com/result?word=run&lang=en" class="l1">run&nbsp;</a>
+<a href="https://www.youdao.com/result?word=along&lang=en" class="l1">along&nbsp;</a>
+<a href="https://www.youdao.com/result?word=three&lang=en" class="l1">three&nbsp;</a>
+<a href="https://www.youdao.com/result?word=of&lang=en" class="l1">of&nbsp;</a>
+<a href="https://www.youdao.com/result?word=its&lang=en" class="l1">its&nbsp;</a>
+<a href="https://www.youdao.com/result?word=sides,&lang=en" class="l1">sides,&nbsp;</a>
+<a href="https://www.youdao.com/result?word=steeply&lang=en" class="l1">steeply&nbsp;</a>
+<a href="https://www.youdao.com/result?word=descending&lang=en" class="l1">descending&nbsp;</a>
+<a href="https://www.youdao.com/result?word=11&lang=en" class="l2">11&nbsp;</a>
+<a href="https://www.youdao.com/result?word=storeys,&lang=en" class="l2">storeys,&nbsp;</a>
+<a href="https://www.youdao.com/result?word=resulting&lang=en" class="l1">resulting&nbsp;</a>
+<a href="https://www.youdao.com/result?word=in&lang=en" class="l1">in&nbsp;</a>
+<a href="https://www.youdao.com/result?word=a&lang=en" class="l1">a&nbsp;</a>
+<a href="https://www.youdao.com/result?word=striking&lang=en" class="l1">striking&nbsp;</a>
+<a href="https://www.youdao.com/result?word=pattern&lang=en" class="l1">pattern&nbsp;</a>
+<a href="https://www.youdao.com/result?word=when&lang=en" class="l1">when&nbsp;</a>
+<a href="https://www.youdao.com/result?word=seen&lang=en" class="l1">seen&nbsp;</a>
+<a href="https://www.youdao.com/result?word=from&lang=en" class="l1">from&nbsp;</a>
+<a href="https://www.youdao.com/result?word=afar&lang=en" class="l2">afar</a>
+<a href="#" class="punctuation">.</a><a href="https://www.youdao.com/result?word=On&lang=en" class="l1">On&nbsp;</a>
+<a href="https://www.youdao.com/result?word=the&lang=en" class="l1">the&nbsp;</a>
+<a href="https://www.youdao.com/result?word=fourth&lang=en" class="l1">fourth&nbsp;</a>
+<a href="https://www.youdao.com/result?word=side,&lang=en" class="l1">side,&nbsp;</a>
+<a href="https://www.youdao.com/result?word=verandas&lang=en" class="l2">verandas&nbsp;</a>
+<a href="https://www.youdao.com/result?word=which&lang=en" class="l1">which&nbsp;</a>
+<a href="https://www.youdao.com/result?word=are&lang=en" class="l1">are&nbsp;</a>
+<a href="https://www.youdao.com/result?word=supported&lang=en" class="l1">supported&nbsp;</a>
+<a href="https://www.youdao.com/result?word=by&lang=en" class="l1">by&nbsp;</a>
+<a href="https://www.youdao.com/result?word=ornate&lang=en" class="l1">ornate&nbsp;</a>
+<a href="https://www.youdao.com/result?word=pillars&lang=en" class="l1">pillars&nbsp;</a>
+<a href="https://www.youdao.com/result?word=overlook&lang=en" class="l1">overlook&nbsp;</a>
+<a href="https://www.youdao.com/result?word=the&lang=en" class="l1">the&nbsp;</a>
+<a href="https://www.youdao.com/result?word=steps&lang=en" class="l1">steps</a>
+<a href="#" class="punctuation">.</a><a href="https://www.youdao.com/result?word=Still&lang=en" class="l1">Still&nbsp;</a>
+<a href="https://www.youdao.com/result?word=in&lang=en" class="l1">in&nbsp;</a>
+<a href="https://www.youdao.com/result?word=public&lang=en" class="l1">public&nbsp;</a>
+<a href="https://www.youdao.com/result?word=use&lang=en" class="l1">use&nbsp;</a>
+<a href="https://www.youdao.com/result?word=is&lang=en" class="l1">is&nbsp;</a>
+<a href="https://www.youdao.com/result?word=Neemrana&lang=en" class="l2">Neemrana&nbsp;</a>
+<a href="https://www.youdao.com/result?word=Ki&lang=en" class="l2">Ki&nbsp;</a>
+<a href="https://www.youdao.com/result?word=Baoriy&lang=en" class="l2">Baoriy&nbsp;</a>
+<a href="https://www.youdao.com/result?word=located&lang=en" class="l1">located&nbsp;</a>
+<a href="https://www.youdao.com/result?word=just&lang=en" class="l1">just&nbsp;</a>
+<a href="https://www.youdao.com/result?word=off&lang=en" class="l1">off&nbsp;</a>
+<a href="https://www.youdao.com/result?word=the&lang=en" class="l1">the&nbsp;</a>
+<a href="https://www.youdao.com/result?word=Jaipur-Delhi&lang=en" class="l2">Jaipur-Delhi&nbsp;</a>
+<a href="https://www.youdao.com/result?word=highway&lang=en" class="l1">highway</a>
+<a href="#" class="punctuation">.</a><a href="https://www.youdao.com/result?word=Constructed&lang=en" class="l1">Constructed&nbsp;</a>
+<a href="https://www.youdao.com/result?word=in&lang=en" class="l1">in&nbsp;</a>
+<a href="https://www.youdao.com/result?word=around&lang=en" class="l1">around&nbsp;</a>
+<a href="https://www.youdao.com/result?word=1700,&lang=en" class="l2">1700,&nbsp;</a>
+<a href="https://www.youdao.com/result?word=it&lang=en" class="l1">it&nbsp;</a>
+<a href="https://www.youdao.com/result?word=is&lang=en" class="l1">is&nbsp;</a>
+<a href="https://www.youdao.com/result?word=nine&lang=en" class="l1">nine&nbsp;</a>
+<a href="https://www.youdao.com/result?word=storeys&lang=en" class="l1">storeys&nbsp;</a>
+<a href="https://www.youdao.com/result?word=deep,&lang=en" class="l1">deep,&nbsp;</a>
+<a href="https://www.youdao.com/result?word=with&lang=en" class="l1">with&nbsp;</a>
+<a href="https://www.youdao.com/result?word=the&lang=en" class="l1">the&nbsp;</a>
+<a href="https://www.youdao.com/result?word=last&lang=en" class="l1">last&nbsp;</a>
+<a href="https://www.youdao.com/result?word=two&lang=en" class="l1">two&nbsp;</a>
+<a href="https://www.youdao.com/result?word=being&lang=en" class="l1">being&nbsp;</a>
+<a href="https://www.youdao.com/result?word=underwater&lang=en" class="l1">underwater</a>
+<a href="#" class="punctuation">.</a><a href="https://www.youdao.com/result?word=At&lang=en" class="l1">At&nbsp;</a>
+<a href="https://www.youdao.com/result?word=ground&lang=en" class="l1">ground&nbsp;</a>
+<a href="https://www.youdao.com/result?word=level,&lang=en" class="l1">level,&nbsp;</a>
+<a href="https://www.youdao.com/result?word=there&lang=en" class="l1">there&nbsp;</a>
+<a href="https://www.youdao.com/result?word=are&lang=en" class="l1">are&nbsp;</a>
+<a href="https://www.youdao.com/result?word=86&lang=en" class="l2">86&nbsp;</a>
+<a href="https://www.youdao.com/result?word=colonnaded&lang=en" class="l2">colonnaded&nbsp;</a>
+<a href="https://www.youdao.com/result?word=openings&lang=en" class="l1">openings&nbsp;</a>
+<a href="https://www.youdao.com/result?word=from&lang=en" class="l1">from&nbsp;</a>
+<a href="https://www.youdao.com/result?word=where&lang=en" class="l1">where&nbsp;</a>
+<a href="https://www.youdao.com/result?word=the&lang=en" class="l1">the&nbsp;</a>
+<a href="https://www.youdao.com/result?word=visitor&lang=en" class="l1">visitor&nbsp;</a>
+<a href="https://www.youdao.com/result?word=descends&lang=en" class="l1">descends&nbsp;</a>
+<a href="https://www.youdao.com/result?word=170&lang=en" class="l2">170&nbsp;</a>
+<a href="https://www.youdao.com/result?word=steps&lang=en" class="l1">steps&nbsp;</a>
+<a href="https://www.youdao.com/result?word=to&lang=en" class="l1">to&nbsp;</a>
+<a href="https://www.youdao.com/result?word=the&lang=en" class="l1">the&nbsp;</a>
+<a href="https://www.youdao.com/result?word=deepest&lang=en" class="l1">deepest&nbsp;</a>
+<a href="https://www.youdao.com/result?word=water&lang=en" class="l1">water&nbsp;</a>
+<a href="https://www.youdao.com/result?word=source&lang=en" class="l1">source</a>
+<a href="#" class="punctuation">.</a><a href="https://www.youdao.com/result?word=Today,&lang=en" class="l1">Today,&nbsp;</a>
+<a href="https://www.youdao.com/result?word=following&lang=en" class="l1">following&nbsp;</a>
+<a href="https://www.youdao.com/result?word=years&lang=en" class="l1">years&nbsp;</a>
+<a href="https://www.youdao.com/result?word=of&lang=en" class="l1">of&nbsp;</a>
+<a href="https://www.youdao.com/result?word=neglect,&lang=en" class="l1">neglect,&nbsp;</a>
+<a href="https://www.youdao.com/result?word=many&lang=en" class="l1">many&nbsp;</a>
+<a href="https://www.youdao.com/result?word=of&lang=en" class="l1">of&nbsp;</a>
+<a href="https://www.youdao.com/result?word=these&lang=en" class="l1">these&nbsp;</a>
+<a href="https://www.youdao.com/result?word=monuments&lang=en" class="l1">monuments&nbsp;</a>
+<a href="https://www.youdao.com/result?word=to&lang=en" class="l1">to&nbsp;</a>
+<a href="https://www.youdao.com/result?word=medieval&lang=en" class="l1">medieval&nbsp;</a>
+<a href="https://www.youdao.com/result?word=engineering&lang=en" class="l1">engineering&nbsp;</a>
+<a href="https://www.youdao.com/result?word=have&lang=en" class="l1">have&nbsp;</a>
+<a href="https://www.youdao.com/result?word=been&lang=en" class="l1">been&nbsp;</a>
+<a href="https://www.youdao.com/result?word=saved&lang=en" class="l1">saved&nbsp;</a>
+<a href="https://www.youdao.com/result?word=by&lang=en" class="l1">by&nbsp;</a>
+<a href="https://www.youdao.com/result?word=the&lang=en" class="l1">the&nbsp;</a>
+<a href="https://www.youdao.com/result?word=Archaeological&lang=en" class="l1">Archaeological&nbsp;</a>
+<a href="https://www.youdao.com/result?word=Survey&lang=en" class="l1">Survey&nbsp;</a>
+<a href="https://www.youdao.com/result?word=of&lang=en" class="l1">of&nbsp;</a>
+<a href="https://www.youdao.com/result?word=India,&lang=en" class="l2">India,&nbsp;</a>
+<a href="https://www.youdao.com/result?word=which&lang=en" class="l1">which&nbsp;</a>
+<a href="https://www.youdao.com/result?word=has&lang=en" class="l1">has&nbsp;</a>
+<a href="https://www.youdao.com/result?word=recognised&lang=en" class="l2">recognised&nbsp;</a>
+<a href="https://www.youdao.com/result?word=the&lang=en" class="l1">the&nbsp;</a>
+<a href="https://www.youdao.com/result?word=importance&lang=en" class="l1">importance&nbsp;</a>
+<a href="https://www.youdao.com/result?word=of&lang=en" class="l1">of&nbsp;</a>
+<a href="https://www.youdao.com/result?word=preserving&lang=en" class="l2">preserving&nbsp;</a>
+<a href="https://www.youdao.com/result?word=them&lang=en" class="l1">them&nbsp;</a>
+<a href="https://www.youdao.com/result?word=as&lang=en" class="l1">as&nbsp;</a>
+<a href="https://www.youdao.com/result?word=part&lang=en" class="l1">part&nbsp;</a>
+<a href="https://www.youdao.com/result?word=of&lang=en" class="l1">of&nbsp;</a>
+<a href="https://www.youdao.com/result?word=the&lang=en" class="l1">the&nbsp;</a>
+<a href="https://www.youdao.com/result?word=country’s&lang=en" class="l1">country’s&nbsp;</a>
+<a href="https://www.youdao.com/result?word=rich&lang=en" class="l1">rich&nbsp;</a>
+<a href="https://www.youdao.com/result?word=history&lang=en" class="l1">history</a>
+<a href="#" class="punctuation">.</a><a href="https://www.youdao.com/result?word=Tourists&lang=en" class="l1">Tourists&nbsp;</a>
+<a href="https://www.youdao.com/result?word=flock&lang=en" class="l1">flock&nbsp;</a>
+<a href="https://www.youdao.com/result?word=to&lang=en" class="l1">to&nbsp;</a>
+<a href="https://www.youdao.com/result?word=wells&lang=en" class="l1">wells&nbsp;</a>
+<a href="https://www.youdao.com/result?word=in&lang=en" class="l1">in&nbsp;</a>
+<a href="https://www.youdao.com/result?word=far-flung&lang=en" class="l2">far-flung&nbsp;</a>
+<a href="https://www.youdao.com/result?word=corners&lang=en" class="l1">corners&nbsp;</a>
+<a href="https://www.youdao.com/result?word=of&lang=en" class="l1">of&nbsp;</a>
+<a href="https://www.youdao.com/result?word=northwestern&lang=en" class="l1">northwestern&nbsp;</a>
+<a href="https://www.youdao.com/result?word=India&lang=en" class="l2">India&nbsp;</a>
+<a href="https://www.youdao.com/result?word=to&lang=en" class="l1">to&nbsp;</a>
+<a href="https://www.youdao.com/result?word=gaze&lang=en" class="l1">gaze&nbsp;</a>
+<a href="https://www.youdao.com/result?word=in&lang=en" class="l1">in&nbsp;</a>
+<a href="https://www.youdao.com/result?word=wonder&lang=en" class="l1">wonder&nbsp;</a>
+<a href="https://www.youdao.com/result?word=at&lang=en" class="l1">at&nbsp;</a>
+<a href="https://www.youdao.com/result?word=these&lang=en" class="l1">these&nbsp;</a>
+<a href="https://www.youdao.com/result?word=architectural&lang=en" class="l1">architectural&nbsp;</a>
+<a href="https://www.youdao.com/result?word=marvels&lang=en" class="l1">marvels&nbsp;</a>
+<a href="https://www.youdao.com/result?word=from&lang=en" class="l1">from&nbsp;</a>
+<a href="https://www.youdao.com/result?word=hundreds&lang=en" class="l1">hundreds&nbsp;</a>
+<a href="https://www.youdao.com/result?word=of&lang=en" class="l1">of&nbsp;</a>
+<a href="https://www.youdao.com/result?word=years&lang=en" class="l1">years&nbsp;</a>
+<a href="https://www.youdao.com/result?word=ago,&lang=en" class="l1">ago,&nbsp;</a>
+<a href="https://www.youdao.com/result?word=which&lang=en" class="l1">which&nbsp;</a>
+<a href="https://www.youdao.com/result?word=serve&lang=en" class="l1">serve&nbsp;</a>
+<a href="https://www.youdao.com/result?word=as&lang=en" class="l1">as&nbsp;</a>
+<a href="https://www.youdao.com/result?word=a&lang=en" class="l1">a&nbsp;</a>
+<a href="https://www.youdao.com/result?word=reminder&lang=en" class="l1">reminder&nbsp;</a>
+<a href="https://www.youdao.com/result?word=of&lang=en" class="l1">of&nbsp;</a>
+<a href="https://www.youdao.com/result?word=both&lang=en" class="l1">both&nbsp;</a>
+<a href="https://www.youdao.com/result?word=the&lang=en" class="l1">the&nbsp;</a>
+<a href="https://www.youdao.com/result?word=ingenuity&lang=en" class="l2">ingenuity&nbsp;</a>
+<a href="https://www.youdao.com/result?word=and&lang=en" class="l1">and&nbsp;</a>
+<a href="https://www.youdao.com/result?word=artistry&lang=en" class="l1">artistry&nbsp;</a>
+<a href="https://www.youdao.com/result?word=of&lang=en" class="l1">of&nbsp;</a>
+<a href="https://www.youdao.com/result?word=ancient&lang=en" class="l1">ancient&nbsp;</a>
+<a href="https://www.youdao.com/result?word=civilisations&lang=en" class="l2">civilisations&nbsp;</a>
+<a href="https://www.youdao.com/result?word=and&lang=en" class="l1">and&nbsp;</a>
+<a href="https://www.youdao.com/result?word=of&lang=en" class="l1">of&nbsp;</a>
+<a href="https://www.youdao.com/result?word=the&lang=en" class="l1">the&nbsp;</a>
+<a href="https://www.youdao.com/result?word=value&lang=en" class="l1">value&nbsp;</a>
+<a href="https://www.youdao.com/result?word=of&lang=en" class="l1">of&nbsp;</a>
+<a href="https://www.youdao.com/result?word=water&lang=en" class="l1">water&nbsp;</a>
+<a href="https://www.youdao.com/result?word=to&lang=en" class="l1">to&nbsp;</a>
+<a href="https://www.youdao.com/result?word=human&lang=en" class="l1">human&nbsp;</a>
+<a href="https://www.youdao.com/result?word=existence&lang=en" class="l1">existence</a>
+<a href="#" class="punctuation">.</a><a href="#" class="punctuation">.</a><p class="cn hidden">阶梯井
+一千年前，阶梯井是印度最干旱地区生活的基础。理查德·考克斯
+前往印度西北部记录这些来自过去时代的壮观古迹
+在 6 世纪和 7 世纪，现代印度西北部古吉拉特邦和拉贾斯坦邦的居民开发了一种获取清洁、新鲜食物的方法。
+旱季地下水用于饮用、洗澡、给动物浇水和灌溉。然而，
+这项发明的意义——阶梯井——超越了它的实用性应用。
+该地区独有的阶梯井通常在建筑上很复杂，并且大小差异很大，
+形状。在他们的鼎盛时期，它们是聚会、休闲和放松的地方。
+崇拜除最底层以外的所有村民。大多数阶梯井分布在周围
+古吉拉特邦（称为vav）和拉贾斯坦邦（称为baori）的沙漠地区，
+而少数人也在德里生存。一些位于村庄内或村庄附近，作为公共场所
+社区;其他人则被安置在路边，作为旅行者的休息场所。
+顾名思义，阶梯井由一系列从地面下降的石阶组成
+降雨后退去的水源（通常是地下含水层）。当。。。的时候
+水位高，用户只需下降几步即可到达；低的时候，
+必须就几个级别进行谈判。
+一些井是巨大的开放式火山口，每个倾斜的一侧都有数百个台阶，通常是分层的。
+其他的则更为精致，有长长的阶梯通道通过几层楼通向水中。
+它们由石头建造并由柱子支撑，还包括为游客提供庇护的亭子。
+无情的热度。但也许最令人印象深刻的特征是错综复杂的装饰
+装饰许多阶梯井的雕塑，展示了从打斗和跳舞到
+日常行为，例如女性梳理头发或搅拌黄油。
+几个世纪以来，印度西北部建造了数千口井，但
+大多数现在已经被废弃；许多被遗弃和干燥，因为地下水已被转移
+用于工业用途，水井不再到达地下水位。他们的病情没有得到帮助
+由于最近的干旱：拉贾斯坦邦南部在 1996 年至 2004 年间遭受了八年的干旱。
+然而，古吉拉特邦的一些重要遗址最近进行了重大修复，
+州政府去年 6 月宣布，计划在整个
+状态。
+在该州的古都帕坦，Rani Ki Vav（女王的阶梯井）阶梯井可能是目前最好的例子。它由乌达亚玛蒂王后在 11 世纪后期建造，但后来成为
+在 13 世纪的洪水之后淤塞。但是印度的考古调查开始了
+在 1960 年代对其进行了修复，如今它仍处于原始状态。长65米，宽20米
+Rani Ki Vav 深 27 米，有 500 个雕刻在整个壁龛中的雕塑
+纪念碑。令人难以置信的是，2001 年 1 月，这座古老的建筑在一场地震中幸存下来。
+在里氏标度上测得 7.6。
+另一个例子是古吉拉特邦北部莫德拉的苏里亚昆德，毗邻太阳神庙，由
+1026 年，比玛一世国王向太阳神苏利亚致敬。它实际上类似于坦克（kund 的意思是
+水库或池塘）而不是井，但显示了阶梯井建筑的标志，包括
+台阶的四个侧面以惊人的几何形状下降到底部。梯田
+在阶梯之间有 108 座精雕细刻的小神龛。
+拉贾斯坦邦也有丰富的水井。位于斋浦尔以南200公里的邦迪古城是
+以其建筑而闻名，包括阶梯井。较大的例子之一是 Raniji Ki Baori，
+由该地区的王后纳塔瓦吉于 1699 年建造。深 46 米，深 20 米
+这座雕刻精美的纪念碑宽 40 米，是受委托建造的 21 个 baoris 之一
+Nathavatji 的 Bundi 地区。
+在斋浦尔以东约 95 公里处的阿巴内里古城废墟中，有钱德·鲍里 (Chand Baori)，
+印度最古老、最深的井；从美学上讲，它可能是最具戏剧性的之一。内置
+大约公元 850 年，在 Harshat Mata 神庙旁边，宝日由数百个锯齿形
+沿着它的三个侧面延伸的台阶，陡峭地下降了 11 层，形成了一个引人注目的图案
+从远处看时。第四侧，由华丽柱子支撑的阳台俯瞰
+步骤。
+Neemrana Ki Baoriy 仍在公共使用中，位于斋浦尔-德里高速公路旁。建造于
+大约 1700 年，它有九层深，最后两层在水下。在地面层，有
+86 个柱廊开口，游客从那里下降 170 级台阶到达最深的水源。
+今天，经过多年的忽视，许多中世纪工程的纪念碑已经
+印度考古调查局已经认识到保护的重要性
+它们是该国丰富历史的一部分。游客涌向印度西北部偏远角落的水井，惊叹于这些数百年前的建筑奇迹
+提醒人们古代文明的独创性和艺术性以及水的价值
+人类的存在。</p><br><br>
+        </main>
+    </body>
+    <script type="text/javascript" src='./article.js' />
+    </script>
+  </html>
+  
